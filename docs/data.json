@@ -1,1 +1,2833 @@
-{"site":{"name":"Santa Barbara","radius_km":32.2,"lat":0,"lng":0},"generated":"2026-01-01T00:00:00+00:00","window_days":14,"baseline_years":5,"groups":[]}
+{
+ "site": {
+  "name": "Santa Barbara",
+  "tagline": "who's new on the Riviera?",
+  "lat": 34.4208,
+  "lng": -119.6982,
+  "radius_miles": 20,
+  "theme": {
+   "sky": "#8fd3e8",
+   "accent": "#e9622b",
+   "birds": [
+    "#3b6fb6",
+    "#d4572a",
+    "#2f8a5b",
+    "#7b4fc4"
+   ]
+  },
+  "radius_km": 32.2
+ },
+ "generated": "2026-11-26T06:14:54+00:00",
+ "window_days": 14,
+ "baseline_years": 5,
+ "groups": [
+  {
+   "id": "birds",
+   "label": "Birds",
+   "emoji": "🐦",
+   "recent_species_total": 108,
+   "items": [
+    {
+     "taxon_id": 7087,
+     "sci": "Branta bernicla",
+     "common": "Brant",
+     "flags": [
+      "off_season"
+     ],
+     "baseline_count": 16,
+     "recent_count": 4,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/767945318/medium.jpg",
+      "attribution": "(c) Garrett Craig, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-25",
+       "place": "Goleta, CA, US",
+       "lat": 34.4104083333,
+       "lng": -119.8818133333,
+       "url": "https://www.inaturalist.org/observations/416941210",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-25",
+       "place": "Goleta, CA, US",
+       "lat": 34.4104083333,
+       "lng": -119.8818133333,
+       "url": "https://www.inaturalist.org/observations/416941156",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-24",
+       "place": "University of California-Santa Barbara, CA, US",
+       "lat": 34.4092883528,
+       "lng": -119.8813516027,
+       "url": "https://www.inaturalist.org/observations/416814515",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-16",
+       "place": "University of California-Santa Barbara, CA, USA",
+       "lat": 34.4107283446,
+       "lng": -119.8776082566,
+       "url": "https://www.inaturalist.org/observations/415739162",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-25",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 4531,
+     "sci": "Brachyramphus marmoratus",
+     "common": "Marbled Murrelet",
+     "flags": [
+      "new",
+      "notable"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat",
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/766493895/medium.jpg",
+      "attribution": "(c) Alexander Harman, Ph.D., some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 13:50",
+       "place": "Rincon Beach County Park",
+       "lat": 34.3773041,
+       "lng": -119.4811249,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412237424",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 12:55",
+       "place": "Rincon Beach County Park",
+       "lat": 34.3773041,
+       "lng": -119.4811249,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412180180",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 12:55",
+       "place": "Rincon Beach County Park",
+       "lat": 34.3773041,
+       "lng": -119.4811249,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412180180",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 12:55",
+       "place": "Rincon Beach County Park",
+       "lat": 34.3773041,
+       "lng": -119.4811249,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412180180",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 12:55",
+       "place": "Rincon Beach County Park",
+       "lat": 34.3773041,
+       "lng": -119.4811249,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412180180",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 12:55",
+       "place": "Rincon Beach County Park",
+       "lat": 34.3773041,
+       "lng": -119.4811249,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412180180",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 12:55",
+       "place": "Rincon Beach County Park",
+       "lat": 34.3773041,
+       "lng": -119.4811249,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412180647",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 12:55",
+       "place": "Rincon Beach County Park",
+       "lat": 34.3773041,
+       "lng": -119.4811249,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412180647",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 12:55",
+       "place": "Rincon Beach County Park",
+       "lat": 34.3773041,
+       "lng": -119.4811249,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412180647",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 12:55",
+       "place": "Rincon Beach County Park",
+       "lat": 34.3773041,
+       "lng": -119.4811249,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412180647",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "marmur",
+     "latest": "2026-11-21",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Calcarius ornatus",
+     "common": "Chestnut-collared Longspur",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55766380/medium.jpg",
+      "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 15:47",
+       "place": "Elings Park",
+       "lat": 34.4098484,
+       "lng": -119.7349691,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413160602",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 13:27",
+       "place": "Elings Park",
+       "lat": 34.4098484,
+       "lng": -119.7349691,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413180428",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 13:27",
+       "place": "Elings Park",
+       "lat": 34.4098484,
+       "lng": -119.7349691,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413136809",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 09:00",
+       "place": "Elings Park",
+       "lat": 34.4098484,
+       "lng": -119.7349691,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412437156",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 13:51",
+       "place": "Elings Park",
+       "lat": 34.4098484,
+       "lng": -119.7349691,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411258048",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 13:51",
+       "place": "Elings Park",
+       "lat": 34.4098484,
+       "lng": -119.7349691,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411258048",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 11:00",
+       "place": "Elings Park",
+       "lat": 34.4098484,
+       "lng": -119.7349691,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411289779",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 11:00",
+       "place": "Elings Park",
+       "lat": 34.4098484,
+       "lng": -119.7349691,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411289779",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 11:00",
+       "place": "Elings Park",
+       "lat": 34.4098484,
+       "lng": -119.7349691,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411289779",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 14:17",
+       "place": "Elings Park",
+       "lat": 34.4098484,
+       "lng": -119.7349691,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410879746",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "chclon",
+     "latest": "2026-11-25",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Zosterops simplex",
+     "common": "Swinhoe's White-eye",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20010236/medium.jpg",
+      "attribution": "(c) Bronze Cheung Kwok Yee, some rights reserved (CC BY-NC), uploaded by Bronze Cheung Kwok Yee",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 15:42",
+       "place": "Andree Clark Bird Refuge",
+       "lat": 34.4215353,
+       "lng": -119.6572856,
+       "count": 3,
+       "url": "https://ebird.org/checklist/S413171712",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 15:05",
+       "place": "UCSB--campus",
+       "lat": 34.4148759,
+       "lng": -119.8450041,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S413181665",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 12:00",
+       "place": "Coal Oil Point Natural Reserve--Devereux Lagoon",
+       "lat": 34.4136013,
+       "lng": -119.8756027,
+       "count": 3,
+       "url": "https://ebird.org/checklist/S413117414",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 10:45",
+       "place": "Coal Oil Point Natural Reserve (parent hotspot, if possible, use more specific hotspot)",
+       "lat": 34.4151882,
+       "lng": -119.8799569,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S412550437",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 06:56",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412435094",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-18",
+       "time": "2026-11-18 09:35",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411408356",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-18",
+       "time": "2026-11-18 09:35",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411408356",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 08:26",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410871122",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 08:52",
+       "place": "5046 Seventh St, Carpinteria US-CA (34.3966,-119.5203)",
+       "lat": 34.396648,
+       "lng": -119.520309,
+       "count": 3,
+       "url": "https://ebird.org/checklist/S410628796",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "swiwhe1",
+     "latest": "2026-11-25",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Tyrannus melancholicus",
+     "common": "Tropical Kingbird",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254986834/medium.jpg",
+      "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 08:18",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413140054",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 06:58",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413157344",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-24",
+       "time": "2026-11-24 10:17",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412944642",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-23",
+       "time": "2026-11-23 13:02",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412758007",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-23",
+       "time": "2026-11-23 11:39",
+       "place": "Lake Los Carneros Park",
+       "lat": 34.44322,
+       "lng": -119.84975,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412742310",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-23",
+       "time": "2026-11-23 09:08",
+       "place": "Lake Los Carneros Park",
+       "lat": 34.44322,
+       "lng": -119.84975,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412771869",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-23",
+       "time": "2026-11-23 09:08",
+       "place": "Lake Los Carneros Park",
+       "lat": 34.44322,
+       "lng": -119.84975,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412772563",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 14:59",
+       "place": "Tierra De Fortuna Park",
+       "lat": 34.412792,
+       "lng": -119.869008,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412897979",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 12:07",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S412543277",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 12:07",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S412543277",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "trokin",
+     "latest": "2026-11-25",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Loxia curvirostra",
+     "common": "Red Crossbill",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-24",
+       "time": "2026-11-24 08:55",
+       "place": "Business Park at Mentor Dr. (restricted access)",
+       "lat": 34.4340729,
+       "lng": -119.8124367,
+       "count": 5,
+       "url": "https://ebird.org/checklist/S412886903",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-24",
+       "time": "2026-11-24 07:11",
+       "place": "Cabrillo Business Park (restricted access)",
+       "lat": 34.4277264,
+       "lng": -119.8606253,
+       "count": 5,
+       "url": "https://ebird.org/checklist/S412864353",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-23",
+       "time": "2026-11-23 15:33",
+       "place": "Business Park at Mentor Dr. (restricted access)",
+       "lat": 34.4340729,
+       "lng": -119.8124367,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S412761112",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-23",
+       "time": "2026-11-23 13:52",
+       "place": "371 Ortega Ridge Rd, Santa Barbara US-CA 34.43092, -119.59824",
+       "lat": 34.430923,
+       "lng": -119.598244,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412740181",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 09:00",
+       "place": "Elings Park",
+       "lat": 34.4098484,
+       "lng": -119.7349691,
+       "count": 4,
+       "url": "https://ebird.org/checklist/S412437156",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-16",
+       "time": "2026-11-16 07:24",
+       "place": "Noah's House near LLC",
+       "lat": 34.442405,
+       "lng": -119.8426241,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411003609",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 15:26",
+       "place": "2216 Cliff Dr, Santa Barbara US-CA 34.40283, -119.72739",
+       "lat": 34.402828,
+       "lng": -119.727387,
+       "count": 4,
+       "url": "https://ebird.org/checklist/S411033759",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 12:09",
+       "place": "6464 Hollister Ave, Goleta US-CA (34.4322,-119.8522)",
+       "lat": 34.432152,
+       "lng": -119.852239,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410528298",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 08:15",
+       "place": "Arroyo Burro Open Space",
+       "lat": 34.4121233,
+       "lng": -119.7416255,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410583521",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 08:15",
+       "place": "Arroyo Burro Open Space",
+       "lat": 34.4121233,
+       "lng": -119.7416255,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410614367",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "redcro",
+     "latest": "2026-11-24",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Botaurus lentiginosus",
+     "common": "American Bittern",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 08:34",
+       "place": "Lake Los Carneros Park",
+       "lat": 34.44322,
+       "lng": -119.84975,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412226958",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 08:34",
+       "place": "Lake Los Carneros Park",
+       "lat": 34.44322,
+       "lng": -119.84975,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412226958",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 08:34",
+       "place": "Lake Los Carneros Park",
+       "lat": 34.44322,
+       "lng": -119.84975,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412226958",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 08:34",
+       "place": "Lake Los Carneros Park",
+       "lat": 34.44322,
+       "lng": -119.84975,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412210005",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 08:34",
+       "place": "Lake Los Carneros Park",
+       "lat": 34.44322,
+       "lng": -119.84975,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412210005",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 08:34",
+       "place": "Lake Los Carneros Park",
+       "lat": 34.44322,
+       "lng": -119.84975,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412210005",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 08:00",
+       "place": "Lake Los Carneros Park",
+       "lat": 34.44322,
+       "lng": -119.84975,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412166645",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 08:00",
+       "place": "Lake Los Carneros Park",
+       "lat": 34.44322,
+       "lng": -119.84975,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412166645",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 08:00",
+       "place": "Lake Los Carneros Park",
+       "lat": 34.44322,
+       "lng": -119.84975,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412166645",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 08:00",
+       "place": "Lake Los Carneros Park",
+       "lat": 34.44322,
+       "lng": -119.84975,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412166645",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "amebit",
+     "latest": "2026-11-21",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Parkesia noveboracensis",
+     "common": "Northern Waterthrush",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 06:47",
+       "place": "Carpinteria Salt Marsh Reserve (restricted access)",
+       "lat": 34.3996863,
+       "lng": -119.5353699,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412135230",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 06:47",
+       "place": "Carpinteria Salt Marsh Reserve (restricted access)",
+       "lat": 34.3996863,
+       "lng": -119.5353699,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412135230",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "norwat",
+     "latest": "2026-11-21",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Leiothlypis peregrina",
+     "common": "Tennessee Warbler",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7756/medium.jpg",
+      "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-SA)",
+      "license": "cc-by-sa"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-20",
+       "time": "2026-11-20 16:16",
+       "place": "LuBeeland",
+       "lat": 34.395577,
+       "lng": -119.507798,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412192006",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-20",
+       "time": "2026-11-20 16:16",
+       "place": "LuBeeland",
+       "lat": 34.395577,
+       "lng": -119.507798,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411910181",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-19",
+       "time": "2026-11-19 14:25",
+       "place": "LuBeeland",
+       "lat": 34.395577,
+       "lng": -119.507798,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412192022",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-19",
+       "time": "2026-11-19 14:25",
+       "place": "LuBeeland",
+       "lat": 34.395577,
+       "lng": -119.507798,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412192022",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-19",
+       "time": "2026-11-19 14:25",
+       "place": "LuBeeland",
+       "lat": 34.395577,
+       "lng": -119.507798,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412192022",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-19",
+       "time": "2026-11-19 14:25",
+       "place": "LuBeeland",
+       "lat": 34.395577,
+       "lng": -119.507798,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411910243",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-19",
+       "time": "2026-11-19 14:25",
+       "place": "LuBeeland",
+       "lat": 34.395577,
+       "lng": -119.507798,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411910243",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-19",
+       "time": "2026-11-19 14:25",
+       "place": "LuBeeland",
+       "lat": 34.395577,
+       "lng": -119.507798,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411910243",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-18",
+       "time": "2026-11-18 14:13",
+       "place": "LuBeeland",
+       "lat": 34.395577,
+       "lng": -119.507798,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412191999",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-18",
+       "time": "2026-11-18 14:13",
+       "place": "LuBeeland",
+       "lat": 34.395577,
+       "lng": -119.507798,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411910140",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "tenwar",
+     "latest": "2026-11-20",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Aythya marila",
+     "common": "Greater Scaup",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96033692/medium.jpg",
+      "attribution": "(c) Анна Голубева, some rights reserved (CC BY-NC-ND), uploaded by Анна Голубева",
+      "license": "cc-by-nc-nd"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-20",
+       "time": "2026-11-20 12:30",
+       "place": "UCSB--Campus Lagoon",
+       "lat": 34.4076516,
+       "lng": -119.845165,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S411891336",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-20",
+       "time": "2026-11-20 12:30",
+       "place": "UCSB--Campus Lagoon",
+       "lat": 34.4076516,
+       "lng": -119.845165,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S411891336",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-20",
+       "time": "2026-11-20 12:30",
+       "place": "UCSB--Campus Lagoon",
+       "lat": 34.4076516,
+       "lng": -119.845165,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S411891336",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "gresca",
+     "latest": "2026-11-20",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Zenaida asiatica",
+     "common": "White-winged Dove",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-20",
+       "time": "2026-11-20 12:30",
+       "place": "UCSB--Campus Lagoon",
+       "lat": 34.4076516,
+       "lng": -119.845165,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411891336",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-20",
+       "time": "2026-11-20 12:30",
+       "place": "UCSB--Campus Lagoon",
+       "lat": 34.4076516,
+       "lng": -119.845165,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411891336",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 12:40",
+       "place": "Puente @ Puente Plaza",
+       "lat": 34.434891,
+       "lng": -119.7840596,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410852949",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 12:40",
+       "place": "Puente @ Puente Plaza",
+       "lat": 34.434891,
+       "lng": -119.7840596,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410852949",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 12:16",
+       "place": "Coal Oil Point Natural Reserve (parent hotspot, if possible, use more specific hotspot)",
+       "lat": 34.4151882,
+       "lng": -119.8799569,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410580438",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 12:16",
+       "place": "Coal Oil Point Natural Reserve (parent hotspot, if possible, use more specific hotspot)",
+       "lat": 34.4151882,
+       "lng": -119.8799569,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410580438",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "whwdov",
+     "latest": "2026-11-20",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Piranga rubra",
+     "common": "Summer Tanager",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21089917/medium.jpg",
+      "attribution": "(c) Josh van der Meulen, some rights reserved (CC BY-NC-ND), uploaded by Josh van der Meulen",
+      "license": "cc-by-nc-nd"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-19",
+       "time": "2026-11-19 15:30",
+       "place": "Hale Park",
+       "lat": 34.4341687,
+       "lng": -119.6566057,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411673201",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 10:11",
+       "place": "Lake Los Carneros Park",
+       "lat": 34.44322,
+       "lng": -119.84975,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411221313",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 10:11",
+       "place": "Lake Los Carneros Park",
+       "lat": 34.44322,
+       "lng": -119.84975,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411221313",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 10:11",
+       "place": "Lake Los Carneros Park",
+       "lat": 34.44322,
+       "lng": -119.84975,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411221313",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 07:21",
+       "place": "Hale Park",
+       "lat": 34.4344262,
+       "lng": -119.6573704,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411187550",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "sumtan",
+     "latest": "2026-11-19",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Piranga flava",
+     "common": "Hepatic Tanager",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/396726768/medium.jpg",
+      "attribution": "(c) Manequinho Correia, some rights reserved (CC BY-NC), uploaded by Manequinho Correia",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 10:11",
+       "place": "Lake Los Carneros Park",
+       "lat": 34.44322,
+       "lng": -119.84975,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411221313",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-16",
+       "time": "2026-11-16 10:35",
+       "place": "Lake Los Carneros County Park and Preserve, Goleta US-CA (34.4417,-119.8476)",
+       "lat": 34.441698,
+       "lng": -119.847551,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411289641",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "heptan",
+     "latest": "2026-11-17",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Haemorhous cassinii",
+     "common": "Cassin's Finch",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225768/medium.jpg",
+      "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 08:06",
+       "place": "4831 Rim Rd, Santa Barbara US-CA 34.50299, -119.78958",
+       "lat": 34.502988,
+       "lng": -119.789582,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S411223823",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "casfin",
+     "latest": "2026-11-17",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Tringa flavipes",
+     "common": "Lesser Yellowlegs",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260887463/medium.jpg",
+      "attribution": "(c) Jonathan Irons, some rights reserved (CC BY-NC), uploaded by Jonathan Irons",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 08:41",
+       "place": "Coal Oil Point Natural Reserve--Devereux Lagoon",
+       "lat": 34.4136013,
+       "lng": -119.8756027,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S410788146",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 08:41",
+       "place": "Coal Oil Point Natural Reserve--Devereux Lagoon",
+       "lat": 34.4136013,
+       "lng": -119.8756027,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S410788146",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 08:41",
+       "place": "Coal Oil Point Natural Reserve--Devereux Lagoon",
+       "lat": 34.4136013,
+       "lng": -119.8756027,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S410788146",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 08:41",
+       "place": "Coal Oil Point Natural Reserve--Devereux Lagoon",
+       "lat": 34.4136013,
+       "lng": -119.8756027,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S410788146",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 08:41",
+       "place": "Coal Oil Point Natural Reserve--Devereux Lagoon",
+       "lat": 34.4136013,
+       "lng": -119.8756027,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S410788146",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 08:41",
+       "place": "Coal Oil Point Natural Reserve--Devereux Lagoon",
+       "lat": 34.4136013,
+       "lng": -119.8756027,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S410788146",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 08:41",
+       "place": "Coal Oil Point Natural Reserve--Devereux Lagoon",
+       "lat": 34.4136013,
+       "lng": -119.8756027,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S410788146",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 08:41",
+       "place": "Coal Oil Point Natural Reserve--Devereux Lagoon",
+       "lat": 34.4136013,
+       "lng": -119.8756027,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S410788146",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 08:41",
+       "place": "Coal Oil Point Natural Reserve--Devereux Lagoon",
+       "lat": 34.4136013,
+       "lng": -119.8756027,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S410788146",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 08:41",
+       "place": "Coal Oil Point Natural Reserve--Devereux Lagoon",
+       "lat": 34.4136013,
+       "lng": -119.8756027,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S410788146",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "lesyel",
+     "latest": "2026-11-15",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Stelgidopteryx serripennis",
+     "common": "Northern Rough-winged Swallow",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206149012/medium.jpg",
+      "attribution": "(c) Jing-Yi Lu, some rights reserved (CC BY-NC), uploaded by Jing-Yi Lu",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 08:41",
+       "place": "Coal Oil Point Natural Reserve--Devereux Lagoon",
+       "lat": 34.4136013,
+       "lng": -119.8756027,
+       "count": 7,
+       "url": "https://ebird.org/checklist/S410788146",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "nrwswa",
+     "latest": "2026-11-15",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Buteo albonotatus",
+     "common": "Zone-tailed Hawk",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 18:15",
+       "place": "Lookout Park",
+       "lat": 34.42018,
+       "lng": -119.6019646,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410593252",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "zothaw",
+     "latest": "2026-11-14",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Mniotilta varia",
+     "common": "Black-and-white Warbler",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71502776/medium.jpg",
+      "attribution": "(c) Holly Merker, some rights reserved (CC BY-NC), uploaded by Holly Merker",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 12:38",
+       "place": "Santa Barbara Botanic Garden, Santa Barbara US-CA (34.4555,-119.7100)",
+       "lat": 34.455456,
+       "lng": -119.709958,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410533356",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "bawwar",
+     "latest": "2026-11-14",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Setophaga virens",
+     "common": "Black-throated Green Warbler",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/506673183/medium.jpg",
+      "attribution": "(c) pinemartyn, some rights reserved (CC BY-NC), uploaded by pinemartyn",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 08:14",
+       "place": "Carpinteria Police Station tams",
+       "lat": 34.3897587,
+       "lng": -119.5055068,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410480374",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 08:14",
+       "place": "Carpinteria Police Station tams",
+       "lat": 34.3897587,
+       "lng": -119.5055068,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410480374",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 08:10",
+       "place": "Carpinteria Police Station tams",
+       "lat": 34.3897587,
+       "lng": -119.5055068,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410562736",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 08:10",
+       "place": "Carpinteria Police Station tams",
+       "lat": 34.3897587,
+       "lng": -119.5055068,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410562736",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 08:10",
+       "place": "Carpinteria Police Station tams",
+       "lat": 34.3897587,
+       "lng": -119.5055068,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410562736",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 08:10",
+       "place": "Carpinteria Police Station tams",
+       "lat": 34.3897587,
+       "lng": -119.5055068,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410562736",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 08:10",
+       "place": "Carpinteria Police Station tams",
+       "lat": 34.3897587,
+       "lng": -119.5055068,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410562736",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-12",
+       "time": "2026-11-12 14:16",
+       "place": "Carpinteria Police Station tams",
+       "lat": 34.3897587,
+       "lng": -119.5055068,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410079550",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-12",
+       "time": "2026-11-12 12:53",
+       "place": "Carpinteria Police Station tams",
+       "lat": 34.3897587,
+       "lng": -119.5055068,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410174883",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-12",
+       "time": "2026-11-12 12:53",
+       "place": "Carpinteria Police Station tams",
+       "lat": 34.3897587,
+       "lng": -119.5055068,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410174883",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "btnwar",
+     "latest": "2026-11-14",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Vireo swainsoni",
+     "common": "Western Warbling Vireo",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 08:10",
+       "place": "Carpinteria Police Station tams",
+       "lat": 34.3897587,
+       "lng": -119.5055068,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410562736",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "wewvir2",
+     "latest": "2026-11-14",
+     "first_flagged": "2026-11-26"
+    }
+   ]
+  },
+  {
+   "id": "sea-mammals",
+   "label": "Sea mammals",
+   "emoji": "🐋",
+   "recent_species_total": 2,
+   "items": [
+    {
+     "taxon_id": 41440,
+     "sci": "Phocoena phocoena",
+     "common": "Harbour Porpoise",
+     "flags": [
+      "rare"
+     ],
+     "baseline_count": 1,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764903432/medium.jpg",
+      "attribution": "(c) Julia Coty, some rights reserved (CC BY)",
+      "license": "cc-by"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-17",
+       "place": "Stearns Wharf, Santa Barbara, CA, US",
+       "lat": 34.4099083333,
+       "lng": -119.685355,
+       "url": "https://www.inaturalist.org/observations/415400992",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-17",
+     "first_flagged": "2026-11-26"
+    }
+   ]
+  },
+  {
+   "id": "sea-life",
+   "label": "Other sea life",
+   "emoji": "🐙",
+   "recent_species_total": 133,
+   "items": [
+    {
+     "taxon_id": 56772,
+     "sci": "Prionurus laticlavius",
+     "common": "Razor Surgeonfish",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 5,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/767700602/medium.jpg",
+      "attribution": "(c) NudibranchNerd, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-24",
+       "place": "Santa Barbara County, CA, USA",
+       "lat": 34.4057147493,
+       "lng": -119.8767077266,
+       "url": "https://www.inaturalist.org/observations/416821690",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-24",
+       "place": "University of California-Santa Barbara, CA, USA",
+       "lat": 34.4045550509,
+       "lng": -119.879219681,
+       "url": "https://www.inaturalist.org/observations/416828686",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-24",
+       "place": "Slough Rd, Goleta, CA, US",
+       "lat": 34.40629358,
+       "lng": -119.8779778312,
+       "url": "https://www.inaturalist.org/observations/416814127",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-23",
+       "place": "Santa Barbara Channel, University of California-Santa Barbara, CA, US",
+       "lat": 34.4068505916,
+       "lng": -119.8772128753,
+       "url": "https://www.inaturalist.org/observations/416729058",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-23",
+       "place": "University of California-Santa Barbara, CA, US",
+       "lat": 34.406492,
+       "lng": -119.877836,
+       "url": "https://www.inaturalist.org/observations/416615296",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-24",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 328432,
+     "sci": "Chione californiensis",
+     "common": "California Venus",
+     "flags": [
+      "off_season"
+     ],
+     "baseline_count": 13,
+     "recent_count": 3,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/767664892/medium.jpg",
+      "attribution": "(c) Patricia Pauchnick, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-24",
+       "place": "Carpinteria, CA, USA",
+       "lat": 34.3936757,
+       "lng": -119.5249381997,
+       "url": "https://www.inaturalist.org/observations/416803622",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-24",
+       "place": "Carpinteria, CA, USA",
+       "lat": 34.3915215997,
+       "lng": -119.5222830997,
+       "url": "https://www.inaturalist.org/observations/416805525",
+       "quality": "needs_id",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-24",
+       "place": "Carpinteria, CA, USA",
+       "lat": 34.3924809,
+       "lng": -119.5244595,
+       "url": "https://www.inaturalist.org/observations/416806611",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-24",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 479477,
+     "sci": "Doriopsilla gemela",
+     "common": "Yellow-gilled Sea Goddess",
+     "flags": [
+      "off_season"
+     ],
+     "baseline_count": 29,
+     "recent_count": 3,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/767702048/medium.jpg",
+      "attribution": "(c) NudibranchNerd, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-24",
+       "place": "Santa Barbara County, CA, USA",
+       "lat": 34.405515598,
+       "lng": -119.8769974052,
+       "url": "https://www.inaturalist.org/observations/416821701",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-24",
+       "place": "University of California-Santa Barbara, CA, US",
+       "lat": 34.4064968805,
+       "lng": -119.8776822817,
+       "url": "https://www.inaturalist.org/observations/416803358",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-24",
+       "place": "Leadbetter Beach Santa Barbara, CA, US",
+       "lat": 34.398395,
+       "lng": -119.7019583333,
+       "url": "https://www.inaturalist.org/observations/416811268",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-24",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 124511,
+     "sci": "Pusula solandri",
+     "common": "Solander's Trivia",
+     "flags": [
+      "off_season"
+     ],
+     "baseline_count": 5,
+     "recent_count": 2,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/767549622/medium.jpg",
+      "attribution": "(c) Nathan, some rights reserved (CC BY)",
+      "license": "cc-by"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-22",
+       "place": "Santa Barbara, CA, USA",
+       "lat": 34.4094696599,
+       "lng": -119.6856208484,
+       "url": "https://www.inaturalist.org/observations/416747246",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-22",
+       "place": "Waterfront, Santa Barbara, CA, USA",
+       "lat": 34.4099992276,
+       "lng": -119.685795686,
+       "url": "https://www.inaturalist.org/observations/416456259",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-22",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 50020,
+     "sci": "Stiliger fuscovittatus",
+     "common": "Brown-streaked Sapsucker",
+     "flags": [
+      "rare"
+     ],
+     "baseline_count": 1,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764816551/medium.jpg",
+      "attribution": "(c) NudibranchNerd, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-17",
+       "place": "Stearns Wharf, Santa Barbara, CA, US",
+       "lat": 34.410775,
+       "lng": -119.6858,
+       "url": "https://www.inaturalist.org/observations/415359091",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-17",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 53620,
+     "sci": "Petrolisthes cinctipes",
+     "common": "Flat Porcelain Crab",
+     "flags": [
+      "rare"
+     ],
+     "baseline_count": 2,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/767427118/medium.jpg",
+      "attribution": "(c) Angelina Jimenez, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-23",
+       "place": "Rincon Point Rd, CA, US",
+       "lat": 34.37268,
+       "lng": -119.4776616667,
+       "url": "https://www.inaturalist.org/observations/416681977",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-23",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 55290,
+     "sci": "Sphoeroides annulatus",
+     "common": "Bullseye Puffer",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764737977/medium.jpg",
+      "attribution": "(c) Gregory Hahn, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-17",
+       "place": "Santa Barbara, CA, US",
+       "lat": 34.4048216667,
+       "lng": -119.6897883333,
+       "url": "https://www.inaturalist.org/observations/415321529",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-17",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 55534,
+     "sci": "Chaetodon humeralis",
+     "common": "Three-banded Butterflyfish",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259185382/medium.jpeg",
+      "attribution": "(c) Sylvain Le Bris, some rights reserved (CC BY-NC), uploaded by Sylvain Le Bris",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-22",
+       "place": "Waterfront, Santa Barbara, CA, USA",
+       "lat": 34.4099992276,
+       "lng": -119.685795686,
+       "url": "https://www.inaturalist.org/observations/416456250",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-22",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 92989,
+     "sci": "Abudefduf troschelii",
+     "common": "Panamic Sergeant Major",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/767710794/medium.jpg",
+      "attribution": "(c) barretoa15, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-23",
+       "place": "Santa Barbara Channel, University of California-Santa Barbara, CA, US",
+       "lat": 34.4064006064,
+       "lng": -119.8788593867,
+       "url": "https://www.inaturalist.org/observations/416825724",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-23",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 111212,
+     "sci": "Pteroplatytrygon violacea",
+     "common": "Pelagic Stingray",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764045666/medium.jpg",
+      "attribution": "(c) Gregory Hahn, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-15",
+       "place": "Shoreline Dr, Santa Barbara, CA, US",
+       "lat": 34.4056283333,
+       "lng": -119.693695,
+       "url": "https://www.inaturalist.org/observations/414981414",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-15",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 143132,
+     "sci": "Arbacia stellata",
+     "common": "Black Starry Sea Urchin",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-22",
+       "place": "Waterfront, Santa Barbara, CA, USA",
+       "lat": 34.4099992276,
+       "lng": -119.685795686,
+       "url": "https://www.inaturalist.org/observations/416456271",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-22",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 295272,
+     "sci": "Pelia tumida",
+     "common": "Dwarf Teardrop Crab",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/767345176/medium.jpg",
+      "attribution": "(c) James Chapman, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-23",
+       "place": "Creciente Ledges",
+       "lat": 34.4061261862,
+       "lng": -119.7605851268,
+       "url": "https://www.inaturalist.org/observations/416643303",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-23",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 492708,
+     "sci": "Turritella cooperi",
+     "common": "Cooper's Turret",
+     "flags": [
+      "off_season"
+     ],
+     "baseline_count": 6,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/767668693/medium.jpg",
+      "attribution": "(c) Patricia Pauchnick, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-24",
+       "place": "Carpinteria, CA, USA",
+       "lat": 34.3912679997,
+       "lng": -119.5219763997,
+       "url": "https://www.inaturalist.org/observations/416805284",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-24",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 509477,
+     "sci": "Saccella taphria",
+     "common": "Furrowed Nutclam",
+     "flags": [
+      "rare"
+     ],
+     "baseline_count": 2,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/767719740/medium.jpg",
+      "attribution": "(c) Phil Liff-Grieff, some rights reserved (CC BY-NC-SA)",
+      "license": "cc-by-nc-sa"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-24",
+       "place": "Leadbetter Beach Santa Barbara, CA, US",
+       "lat": 34.39787,
+       "lng": -119.702225,
+       "url": "https://www.inaturalist.org/observations/416830152",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-24",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 522082,
+     "sci": "Eulithidium rubrilineatum",
+     "common": "Eulithidium rubrilineatum",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/768089355/medium.jpg",
+      "attribution": "(c) Phil Liff-Grieff, some rights reserved (CC BY-NC-SA)",
+      "license": "cc-by-nc-sa"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-25",
+       "place": "Santa Barbara Channel, Santa Barbara, CA, US",
+       "lat": 34.39582,
+       "lng": -119.707655,
+       "url": "https://www.inaturalist.org/observations/417011082",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-25",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 603318,
+     "sci": "Pagurus redondoensis",
+     "common": "Bandclaw Hermit Crab",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764727154/medium.jpg",
+      "attribution": "(c) wingblossoms, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-17",
+       "place": "Stearns Wharf, Santa Barbara, CA, US",
+       "lat": 34.4107284432,
+       "lng": -119.6858115801,
+       "url": "https://www.inaturalist.org/observations/415316368",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-17",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 910799,
+     "sci": "Paciocinebrina gracillima",
+     "common": "Graceful Rocksnail",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/767720207/medium.jpg",
+      "attribution": "(c) Phil Liff-Grieff, some rights reserved (CC BY-NC-SA)",
+      "license": "cc-by-nc-sa"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-24",
+       "place": "Leadbetter Beach Santa Barbara, CA, US",
+       "lat": 34.3980216667,
+       "lng": -119.7021166667,
+       "url": "https://www.inaturalist.org/observations/416830336",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-24",
+     "first_flagged": "2026-11-26"
+    }
+   ]
+  },
+  {
+   "id": "land",
+   "label": "Land animals",
+   "emoji": "🦎",
+   "recent_species_total": 82,
+   "items": [
+    {
+     "taxon_id": 329848,
+     "sci": "Drosophila repleta",
+     "common": "Drosophila repleta",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 4,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/765156106/medium.jpg",
+      "attribution": "(c) Eric Cleveland, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-18",
+       "place": "Carpinteria, CA, USA",
+       "lat": 34.3973380937,
+       "lng": -119.5199839536,
+       "url": "https://www.inaturalist.org/observations/415527865",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-18",
+       "place": "Carpinteria, CA, USA",
+       "lat": 34.3973380937,
+       "lng": -119.5199839536,
+       "url": "https://www.inaturalist.org/observations/415527864",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-18",
+       "place": "Carpinteria, CA, USA",
+       "lat": 34.3973241042,
+       "lng": -119.5199856774,
+       "url": "https://www.inaturalist.org/observations/415485607",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-18",
+       "place": "Carpinteria, CA, USA",
+       "lat": 34.3990496024,
+       "lng": -119.5156592743,
+       "url": "https://www.inaturalist.org/observations/415650789",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-18",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 155453,
+     "sci": "Aedes aegypti",
+     "common": "Yellow Fever Mosquito",
+     "flags": [
+      "rare"
+     ],
+     "baseline_count": 1,
+     "recent_count": 2,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764519984/medium.jpg",
+      "attribution": "(c) Eric Cleveland, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-15",
+       "place": "Carpinteria, CA, USA",
+       "lat": 34.3990496024,
+       "lng": -119.5156592743,
+       "url": "https://www.inaturalist.org/observations/415211347",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-13",
+       "place": "Carpinteria, CA, USA",
+       "lat": 34.3990496024,
+       "lng": -119.5156592743,
+       "url": "https://www.inaturalist.org/observations/414741429",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-15",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 51773,
+     "sci": "Nathalis iole",
+     "common": "Dainty Sulphur",
+     "flags": [
+      "off_season"
+     ],
+     "baseline_count": 29,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764804605/medium.jpg",
+      "attribution": "(c) Kaj Hoffman, some rights reserved (CC BY-NC-ND)",
+      "license": "cc-by-nc-nd"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-15",
+       "place": "Santa Barbara County, CA, USA",
+       "lat": 34.4579416667,
+       "lng": -119.622794445,
+       "url": "https://www.inaturalist.org/observations/415354291",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-15",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 120156,
+     "sci": "Musca domestica",
+     "common": "Common House Fly",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/766845202/medium.jpg",
+      "attribution": "(c) tmessingindawild, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-22",
+       "place": "Chapala St, Santa Barbara, CA, US",
+       "lat": 34.4176283333,
+       "lng": -119.69955,
+       "url": "https://www.inaturalist.org/observations/416391188",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-22",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 231256,
+     "sci": "Spargania magnoliata",
+     "common": "Double-banded Carpet Moth",
+     "flags": [
+      "rare"
+     ],
+     "baseline_count": 2,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/765144850/medium.jpg",
+      "attribution": "(c) uwkwaj, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-17",
+       "place": "Eastern Goleta Valley, CA, USA",
+       "lat": 34.4256929644,
+       "lng": -119.8068677638,
+       "url": "https://www.inaturalist.org/observations/415521880",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-17",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 303940,
+     "sci": "Listroderes costirostris",
+     "common": "Vegetable Weevil",
+     "flags": [
+      "rare"
+     ],
+     "baseline_count": 1,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/765278549/medium.jpg",
+      "attribution": "(c) Bennett Grappone, some rights reserved (CC BY)",
+      "license": "cc-by"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-18",
+       "place": "Westside Community Center, Santa Barbara, CA 93101, USA",
+       "lat": 34.4194466,
+       "lng": -119.7102081,
+       "url": "https://www.inaturalist.org/observations/415545519",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-18",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 354034,
+     "sci": "Dilophus orbatus",
+     "common": "Dilophus orbatus",
+     "flags": [
+      "rare"
+     ],
+     "baseline_count": 2,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/765853046/medium.jpg",
+      "attribution": "(c) basilisk, some rights reserved (CC BY-NC-SA)",
+      "license": "cc-by-nc-sa"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-18",
+       "place": "Bassano Dr, Goleta, CA, US",
+       "lat": 34.4397926961,
+       "lng": -119.881537931,
+       "url": "https://www.inaturalist.org/observations/415886840",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-18",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 467578,
+     "sci": "Monarthropalpus flavus",
+     "common": "Boxwood Gall Midge",
+     "flags": [
+      "rare"
+     ],
+     "baseline_count": 1,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/763912754/medium.jpg",
+      "attribution": "(c) fimm-won, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-14",
+       "place": "State St, Santa Barbara, CA, US",
+       "lat": 34.4364083333,
+       "lng": -119.7244633333,
+       "url": "https://www.inaturalist.org/observations/414914698",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-14",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 472250,
+     "sci": "Blapstinus dilatatus",
+     "common": "Blapstinus dilatatus",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/765534427/medium.jpg",
+      "attribution": "(c) Bennett Grappone, some rights reserved (CC BY)",
+      "license": "cc-by"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-19",
+       "place": "Santa Barbara, CA, USA",
+       "lat": 34.4406614,
+       "lng": -119.7163524,
+       "url": "https://www.inaturalist.org/observations/415720504",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-19",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 1445652,
+     "sci": "Ctenolepisma lineatum",
+     "common": "Four-lined Silverfish",
+     "flags": [
+      "rare"
+     ],
+     "baseline_count": 1,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/766632464/medium.jpg",
+      "attribution": "(c) Bennett Grappone, some rights reserved (CC BY)",
+      "license": "cc-by"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-22",
+       "place": "Westside Community Center, Santa Barbara, CA 93101, USA",
+       "lat": 34.4202448,
+       "lng": -119.70966917,
+       "url": "https://www.inaturalist.org/observations/416285304",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-22",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 1520253,
+     "sci": "Biston sinuaria",
+     "common": "Biston sinuaria",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3853627/medium.jpg",
+      "attribution": "(c) Jim Vargo at Moth Photographers Group, some rights reserved (CC BY-NC-SA)",
+      "license": "cc-by-nc-sa"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-20",
+       "place": "Santa Barbara, CA 93105, USA",
+       "lat": 34.5591444444,
+       "lng": -119.9460166667,
+       "url": "https://www.inaturalist.org/observations/415929023",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-20",
+     "first_flagged": "2026-11-26"
+    }
+   ]
+  }
+ ]
+}
