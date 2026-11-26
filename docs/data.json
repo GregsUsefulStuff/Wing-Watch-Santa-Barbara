@@ -17,7 +17,7 @@
   },
   "radius_km": 32.2
  },
- "generated": "2026-11-26T06:14:54+00:00",
+ "generated": "2026-11-26T23:55:06+00:00",
  "window_days": 14,
  "baseline_years": 5,
  "groups": [
@@ -25,7 +25,7 @@
    "id": "birds",
    "label": "Birds",
    "emoji": "🐦",
-   "recent_species_total": 108,
+   "recent_species_total": 113,
    "items": [
     {
      "taxon_id": 7087,
@@ -225,6 +225,372 @@
      "first_flagged": "2026-11-26"
     },
     {
+     "taxon_id": 11931,
+     "sci": "Tachycineta thalassina",
+     "common": "Violet-green Swallow",
+     "flags": [
+      "off_season"
+     ],
+     "baseline_count": 23,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/768271243/medium.jpg",
+      "attribution": "(c) Garrett Craig, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-26",
+       "place": "Goleta, CA, US",
+       "lat": 34.4175533333,
+       "lng": -119.87552,
+       "url": "https://www.inaturalist.org/observations/417102432",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-26",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Aythya marila",
+     "common": "Greater Scaup",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96033692/medium.jpg",
+      "attribution": "(c) Анна Голубева, some rights reserved (CC BY-NC-ND), uploaded by Анна Голубева",
+      "license": "cc-by-nc-nd"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-26",
+       "time": "2026-11-26 09:18",
+       "place": "UCSB--Campus Lagoon",
+       "lat": 34.4076516,
+       "lng": -119.845165,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S413328354",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-20",
+       "time": "2026-11-20 12:30",
+       "place": "UCSB--Campus Lagoon",
+       "lat": 34.4076516,
+       "lng": -119.845165,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S411891336",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-20",
+       "time": "2026-11-20 12:30",
+       "place": "UCSB--Campus Lagoon",
+       "lat": 34.4076516,
+       "lng": -119.845165,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S411891336",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-20",
+       "time": "2026-11-20 12:30",
+       "place": "UCSB--Campus Lagoon",
+       "lat": 34.4076516,
+       "lng": -119.845165,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S411891336",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "gresca",
+     "latest": "2026-11-26",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Tyrannus melancholicus",
+     "common": "Tropical Kingbird",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254986834/medium.jpg",
+      "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-26",
+       "time": "2026-11-26 07:54",
+       "place": "Noah's House near LLC",
+       "lat": 34.442405,
+       "lng": -119.8426241,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413284958",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-26",
+       "time": "2026-11-26 06:54",
+       "place": "Andree Clark Bird Refuge",
+       "lat": 34.4215353,
+       "lng": -119.6572856,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413298726",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-26",
+       "time": "2026-11-26 06:54",
+       "place": "Andree Clark Bird Refuge",
+       "lat": 34.4215353,
+       "lng": -119.6572856,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413298726",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-26",
+       "time": "2026-11-26 06:54",
+       "place": "Andree Clark Bird Refuge",
+       "lat": 34.4215353,
+       "lng": -119.6572856,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413298726",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-26",
+       "time": "2026-11-26 06:54",
+       "place": "Andree Clark Bird Refuge",
+       "lat": 34.4215353,
+       "lng": -119.6572856,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413298726",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-26",
+       "time": "2026-11-26 06:54",
+       "place": "Andree Clark Bird Refuge",
+       "lat": 34.4215353,
+       "lng": -119.6572856,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413298726",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 08:18",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413140054",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 06:58",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413157344",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-24",
+       "time": "2026-11-24 10:17",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412944642",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-23",
+       "time": "2026-11-23 13:02",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412758007",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "trokin",
+     "latest": "2026-11-26",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Zosterops simplex",
+     "common": "Swinhoe's White-eye",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20010236/medium.jpg",
+      "attribution": "(c) Bronze Cheung Kwok Yee, some rights reserved (CC BY-NC), uploaded by Bronze Cheung Kwok Yee",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-26",
+       "time": "2026-11-26 06:54",
+       "place": "Andree Clark Bird Refuge",
+       "lat": 34.4215353,
+       "lng": -119.6572856,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S413298726",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 15:42",
+       "place": "Andree Clark Bird Refuge",
+       "lat": 34.4215353,
+       "lng": -119.6572856,
+       "count": 3,
+       "url": "https://ebird.org/checklist/S413171712",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 15:05",
+       "place": "UCSB--campus",
+       "lat": 34.4148759,
+       "lng": -119.8450041,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S413181665",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 12:00",
+       "place": "Coal Oil Point Natural Reserve--Devereux Lagoon",
+       "lat": 34.4136013,
+       "lng": -119.8756027,
+       "count": 3,
+       "url": "https://ebird.org/checklist/S413117414",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 10:45",
+       "place": "Coal Oil Point Natural Reserve (parent hotspot, if possible, use more specific hotspot)",
+       "lat": 34.4151882,
+       "lng": -119.8799569,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S412550437",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 06:56",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412435094",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-18",
+       "time": "2026-11-18 09:35",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411408356",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-18",
+       "time": "2026-11-18 09:35",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411408356",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 08:26",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410871122",
+       "quality": "confirmed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 08:52",
+       "place": "5046 Seventh St, Carpinteria US-CA (34.3966,-119.5203)",
+       "lat": 34.396648,
+       "lng": -119.520309,
+       "count": 3,
+       "url": "https://ebird.org/checklist/S410628796",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "swiwhe1",
+     "latest": "2026-11-26",
+     "first_flagged": "2026-11-26"
+    },
+    {
      "taxon_id": null,
      "sci": "Calcarius ornatus",
      "common": "Chestnut-collared Longspur",
@@ -354,261 +720,6 @@
       }
      ],
      "code": "chclon",
-     "latest": "2026-11-25",
-     "first_flagged": "2026-11-26"
-    },
-    {
-     "taxon_id": null,
-     "sci": "Zosterops simplex",
-     "common": "Swinhoe's White-eye",
-     "flags": [
-      "notable"
-     ],
-     "baseline_count": null,
-     "recent_count": 0,
-     "sources": [
-      "ebird"
-     ],
-     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20010236/medium.jpg",
-      "attribution": "(c) Bronze Cheung Kwok Yee, some rights reserved (CC BY-NC), uploaded by Bronze Cheung Kwok Yee",
-      "license": "cc-by-nc"
-     },
-     "sightings": [
-      {
-       "source": "ebird",
-       "date": "2026-11-25",
-       "time": "2026-11-25 15:42",
-       "place": "Andree Clark Bird Refuge",
-       "lat": 34.4215353,
-       "lng": -119.6572856,
-       "count": 3,
-       "url": "https://ebird.org/checklist/S413171712",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-25",
-       "time": "2026-11-25 15:05",
-       "place": "UCSB--campus",
-       "lat": 34.4148759,
-       "lng": -119.8450041,
-       "count": 2,
-       "url": "https://ebird.org/checklist/S413181665",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-25",
-       "time": "2026-11-25 12:00",
-       "place": "Coal Oil Point Natural Reserve--Devereux Lagoon",
-       "lat": 34.4136013,
-       "lng": -119.8756027,
-       "count": 3,
-       "url": "https://ebird.org/checklist/S413117414",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-22",
-       "time": "2026-11-22 10:45",
-       "place": "Coal Oil Point Natural Reserve (parent hotspot, if possible, use more specific hotspot)",
-       "lat": 34.4151882,
-       "lng": -119.8799569,
-       "count": 2,
-       "url": "https://ebird.org/checklist/S412550437",
-       "quality": "confirmed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-22",
-       "time": "2026-11-22 06:56",
-       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
-       "lat": 34.4198459,
-       "lng": -119.8792197,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S412435094",
-       "quality": "confirmed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-18",
-       "time": "2026-11-18 09:35",
-       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
-       "lat": 34.4198459,
-       "lng": -119.8792197,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S411408356",
-       "quality": "confirmed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-18",
-       "time": "2026-11-18 09:35",
-       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
-       "lat": 34.4198459,
-       "lng": -119.8792197,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S411408356",
-       "quality": "confirmed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-15",
-       "time": "2026-11-15 08:26",
-       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
-       "lat": 34.4198459,
-       "lng": -119.8792197,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S410871122",
-       "quality": "confirmed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-14",
-       "time": "2026-11-14 08:52",
-       "place": "5046 Seventh St, Carpinteria US-CA (34.3966,-119.5203)",
-       "lat": 34.396648,
-       "lng": -119.520309,
-       "count": 3,
-       "url": "https://ebird.org/checklist/S410628796",
-       "quality": "confirmed"
-      }
-     ],
-     "code": "swiwhe1",
-     "latest": "2026-11-25",
-     "first_flagged": "2026-11-26"
-    },
-    {
-     "taxon_id": null,
-     "sci": "Tyrannus melancholicus",
-     "common": "Tropical Kingbird",
-     "flags": [
-      "notable"
-     ],
-     "baseline_count": null,
-     "recent_count": 0,
-     "sources": [
-      "ebird"
-     ],
-     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254986834/medium.jpg",
-      "attribution": "(c) Steven Mlodinow, some rights reserved (CC BY-NC), uploaded by Steven Mlodinow",
-      "license": "cc-by-nc"
-     },
-     "sightings": [
-      {
-       "source": "ebird",
-       "date": "2026-11-25",
-       "time": "2026-11-25 08:18",
-       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
-       "lat": 34.4198459,
-       "lng": -119.8792197,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S413140054",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-25",
-       "time": "2026-11-25 06:58",
-       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
-       "lat": 34.4198459,
-       "lng": -119.8792197,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S413157344",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-24",
-       "time": "2026-11-24 10:17",
-       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
-       "lat": 34.4198459,
-       "lng": -119.8792197,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S412944642",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-23",
-       "time": "2026-11-23 13:02",
-       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
-       "lat": 34.4198459,
-       "lng": -119.8792197,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S412758007",
-       "quality": "confirmed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-23",
-       "time": "2026-11-23 11:39",
-       "place": "Lake Los Carneros Park",
-       "lat": 34.44322,
-       "lng": -119.84975,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S412742310",
-       "quality": "confirmed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-23",
-       "time": "2026-11-23 09:08",
-       "place": "Lake Los Carneros Park",
-       "lat": 34.44322,
-       "lng": -119.84975,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S412771869",
-       "quality": "confirmed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-23",
-       "time": "2026-11-23 09:08",
-       "place": "Lake Los Carneros Park",
-       "lat": 34.44322,
-       "lng": -119.84975,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S412772563",
-       "quality": "confirmed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-22",
-       "time": "2026-11-22 14:59",
-       "place": "Tierra De Fortuna Park",
-       "lat": 34.412792,
-       "lng": -119.869008,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S412897979",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-22",
-       "time": "2026-11-22 12:07",
-       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
-       "lat": 34.4198459,
-       "lng": -119.8792197,
-       "count": 2,
-       "url": "https://ebird.org/checklist/S412543277",
-       "quality": "confirmed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-22",
-       "time": "2026-11-22 12:07",
-       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
-       "lat": 34.4198459,
-       "lng": -119.8792197,
-       "count": 2,
-       "url": "https://ebird.org/checklist/S412543277",
-       "quality": "confirmed"
-      }
-     ],
-     "code": "trokin",
      "latest": "2026-11-25",
      "first_flagged": "2026-11-26"
     },
@@ -1041,62 +1152,6 @@
       }
      ],
      "code": "tenwar",
-     "latest": "2026-11-20",
-     "first_flagged": "2026-11-26"
-    },
-    {
-     "taxon_id": null,
-     "sci": "Aythya marila",
-     "common": "Greater Scaup",
-     "flags": [
-      "notable"
-     ],
-     "baseline_count": null,
-     "recent_count": 0,
-     "sources": [
-      "ebird"
-     ],
-     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96033692/medium.jpg",
-      "attribution": "(c) Анна Голубева, some rights reserved (CC BY-NC-ND), uploaded by Анна Голубева",
-      "license": "cc-by-nc-nd"
-     },
-     "sightings": [
-      {
-       "source": "ebird",
-       "date": "2026-11-20",
-       "time": "2026-11-20 12:30",
-       "place": "UCSB--Campus Lagoon",
-       "lat": 34.4076516,
-       "lng": -119.845165,
-       "count": 2,
-       "url": "https://ebird.org/checklist/S411891336",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-20",
-       "time": "2026-11-20 12:30",
-       "place": "UCSB--Campus Lagoon",
-       "lat": 34.4076516,
-       "lng": -119.845165,
-       "count": 2,
-       "url": "https://ebird.org/checklist/S411891336",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-20",
-       "time": "2026-11-20 12:30",
-       "place": "UCSB--Campus Lagoon",
-       "lat": 34.4076516,
-       "lng": -119.845165,
-       "count": 2,
-       "url": "https://ebird.org/checklist/S411891336",
-       "quality": "unreviewed"
-      }
-     ],
-     "code": "gresca",
      "latest": "2026-11-20",
      "first_flagged": "2026-11-26"
     },
@@ -1667,39 +1722,6 @@
        "count": 1,
        "url": "https://ebird.org/checklist/S410562736",
        "quality": "confirmed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-12",
-       "time": "2026-11-12 14:16",
-       "place": "Carpinteria Police Station tams",
-       "lat": 34.3897587,
-       "lng": -119.5055068,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S410079550",
-       "quality": "confirmed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-12",
-       "time": "2026-11-12 12:53",
-       "place": "Carpinteria Police Station tams",
-       "lat": 34.3897587,
-       "lng": -119.5055068,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S410174883",
-       "quality": "confirmed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-12",
-       "time": "2026-11-12 12:53",
-       "place": "Carpinteria Police Station tams",
-       "lat": 34.3897587,
-       "lng": -119.5055068,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S410174883",
-       "quality": "confirmed"
       }
      ],
      "code": "btnwar",
@@ -1783,7 +1805,7 @@
    "id": "sea-life",
    "label": "Other sea life",
    "emoji": "🐙",
-   "recent_species_total": 133,
+   "recent_species_total": 134,
    "items": [
     {
      "taxon_id": 56772,
@@ -1962,6 +1984,49 @@
      "first_flagged": "2026-11-26"
     },
     {
+     "taxon_id": 53620,
+     "sci": "Petrolisthes cinctipes",
+     "common": "Flat Porcelain Crab",
+     "flags": [
+      "rare"
+     ],
+     "baseline_count": 2,
+     "recent_count": 2,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/767427118/medium.jpg",
+      "attribution": "(c) Angelina Jimenez, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-23",
+       "place": "Rincon Point Rd, CA, US",
+       "lat": 34.37268,
+       "lng": -119.4776616667,
+       "url": "https://www.inaturalist.org/observations/416681977",
+       "quality": "needs_id",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-23",
+       "place": "Rincon Point Rd, CA, US",
+       "lat": 34.37268,
+       "lng": -119.4776616667,
+       "url": "https://www.inaturalist.org/observations/417041926",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-23",
+     "first_flagged": "2026-11-26"
+    },
+    {
      "taxon_id": 124511,
      "sci": "Pusula solandri",
      "common": "Solander's Trivia",
@@ -2034,39 +2099,6 @@
      ],
      "unconfirmed": true,
      "latest": "2026-11-17",
-     "first_flagged": "2026-11-26"
-    },
-    {
-     "taxon_id": 53620,
-     "sci": "Petrolisthes cinctipes",
-     "common": "Flat Porcelain Crab",
-     "flags": [
-      "rare"
-     ],
-     "baseline_count": 2,
-     "recent_count": 1,
-     "sources": [
-      "inat"
-     ],
-     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/767427118/medium.jpg",
-      "attribution": "(c) Angelina Jimenez, some rights reserved (CC BY-NC)",
-      "license": "cc-by-nc"
-     },
-     "sightings": [
-      {
-       "source": "inat",
-       "date": "2026-11-23",
-       "place": "Rincon Point Rd, CA, US",
-       "lat": 34.37268,
-       "lng": -119.4776616667,
-       "url": "https://www.inaturalist.org/observations/416681977",
-       "quality": "needs_id",
-       "obscured": false
-      }
-     ],
-     "unconfirmed": true,
-     "latest": "2026-11-23",
      "first_flagged": "2026-11-26"
     },
     {
@@ -2260,6 +2292,39 @@
      "first_flagged": "2026-11-26"
     },
     {
+     "taxon_id": 353763,
+     "sci": "Cabestana spengleri",
+     "common": "Spengler's Trumpet Snail",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/768109469/medium.jpg",
+      "attribution": "(c) iamburitto, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-25",
+       "place": "Santa Barbara Channel, University of California-Santa Barbara, CA, US",
+       "lat": 34.4063466032,
+       "lng": -119.8776828259,
+       "url": "https://www.inaturalist.org/observations/417021613",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-25",
+     "first_flagged": "2026-11-26"
+    },
+    {
      "taxon_id": 492708,
      "sci": "Turritella cooperi",
      "common": "Cooper's Turret",
@@ -2346,7 +2411,7 @@
       {
        "source": "inat",
        "date": "2026-11-25",
-       "place": "Santa Barbara Channel, Santa Barbara, CA, US",
+       "place": "Leadbetter Beach, Santa Barbara, CA, US",
        "lat": 34.39582,
        "lng": -119.707655,
        "url": "https://www.inaturalist.org/observations/417011082",
@@ -2429,7 +2494,7 @@
    "id": "land",
    "label": "Land animals",
    "emoji": "🦎",
-   "recent_species_total": 82,
+   "recent_species_total": 87,
    "items": [
     {
      "taxon_id": 329848,
@@ -2601,6 +2666,39 @@
      "first_flagged": "2026-11-26"
     },
     {
+     "taxon_id": 199807,
+     "sci": "Segestria pacifica",
+     "common": "Segestria pacifica",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/768256757/medium.jpg",
+      "attribution": "(c) Phil Liff-Grieff, some rights reserved (CC BY-NC-SA)",
+      "license": "cc-by-nc-sa"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-26",
+       "place": "Sperling Preserve Monument, Goleta, CA, US",
+       "lat": 34.4201616667,
+       "lng": -119.89225,
+       "url": "https://www.inaturalist.org/observations/417095164",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-26",
+     "first_flagged": "2026-11-26"
+    },
+    {
      "taxon_id": 231256,
      "sci": "Spargania magnoliata",
      "common": "Double-banded Carpet Moth",
@@ -2630,6 +2728,39 @@
       }
      ],
      "latest": "2026-11-17",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 261299,
+     "sci": "Allacrotelsa spinulata",
+     "common": "Allacrotelsa spinulata",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/768277015/medium.jpg",
+      "attribution": "(c) Phil Liff-Grieff, some rights reserved (CC BY-NC-SA)",
+      "license": "cc-by-nc-sa"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-26",
+       "place": "Coronado Butterfly Preserve, Goleta, CA, US",
+       "lat": 34.4235283333,
+       "lng": -119.891075,
+       "url": "https://www.inaturalist.org/observations/417105752",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-26",
      "first_flagged": "2026-11-26"
     },
     {
@@ -2663,6 +2794,39 @@
      ],
      "unconfirmed": true,
      "latest": "2026-11-18",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 318970,
+     "sci": "Boyeria irene",
+     "common": "Western Spectre",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/768240928/medium.jpg",
+      "attribution": "(c) Liz, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-26",
+       "place": "Madrona Dr, Santa Barbara, CA, US",
+       "lat": 34.4412,
+       "lng": -119.7390583333,
+       "url": "https://www.inaturalist.org/observations/417087566",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-26",
      "first_flagged": "2026-11-26"
     },
     {
