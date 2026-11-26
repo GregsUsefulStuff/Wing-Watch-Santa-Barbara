@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wing Watch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,400&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+:root{
+  --sky:#8fd3e8; --sky2:#d9f1f7; --accent:#e9622b; --leaf:#3f7d58; --ink:#2b2a33;
+  --paper:#fbf6ea; --card:#fffdf7; --line:#e6dcc3; --muted:#6d6a63;
+  --new:#e9622b; --rare:#7b4fc4; --off:#2c8fb5; --notable:#d9a000;
+}
+@media (prefers-color-scheme:dark){
+  :root{--paper:#1d2428;--card:#273138;--line:#3a474f;--ink:#f2ecdd;--muted:#a9b1b3;--sky2:#223a47}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Nunito,system-ui,sans-serif;line-height:1.45;
+  background-image:radial-gradient(var(--line) 1px,transparent 1.2px);background-size:22px 22px}
+a{color:inherit}
+
+/* ---------- sky header ---------- */
+header{position:relative;overflow:hidden;background:linear-gradient(180deg,var(--sky) 0%,var(--sky2) 100%);
+  padding:28px 20px 0;border-bottom:4px solid var(--ink)}
+.cloud{position:absolute;background:#fff;border-radius:99px;opacity:.85;filter:blur(.3px)}
+.cloud::before,.cloud::after{content:"";position:absolute;background:#fff;border-radius:50%}
+.cloud.c1{width:90px;height:26px;top:26px;left:8%;animation:drift 60s linear infinite}
+.cloud.c1::before{width:38px;height:38px;top:-18px;left:14px}.cloud.c1::after{width:28px;height:28px;top:-10px;left:46px}
+.cloud.c2{width:120px;height:32px;top:62px;right:10%;animation:drift 80s linear infinite reverse}
+.cloud.c2::before{width:48px;height:48px;top:-22px;left:20px}.cloud.c2::after{width:34px;height:34px;top:-12px;left:62px}
+@keyframes drift{from{transform:translateX(-30px)}50%{transform:translateX(30px)}to{transform:translateX(-30px)}}
+.flyer{position:absolute;top:44px;left:-60px;width:44px;animation:fly 24s linear infinite;color:var(--ink)}
+@keyframes fly{to{left:105%;transform:translateY(-26px)}}
+.flyer path{animation:flap .5s ease-in-out infinite alternate;transform-origin:50% 60%}
+@keyframes flap{from{transform:scaleY(1)}to{transform:scaleY(.45)}}
+.title{max-width:1100px;margin:0 auto;position:relative;z-index:2}
+.eyebrow{font-family:Caveat,cursive;font-size:1.5rem;color:var(--ink);opacity:.8;margin:0}
+h1{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:clamp(2.2rem,6vw,3.8rem);margin:0;letter-spacing:-.02em;line-height:1}
+h1 em{font-style:italic;font-weight:500;color:var(--accent)}
+.sub{margin:.5rem 0 0;font-weight:600;font-size:.95rem}
+.wire{max-width:1100px;margin:14px auto 0;position:relative;height:62px}
+.wire::after{content:"";position:absolute;left:-40px;right:-40px;bottom:8px;border-bottom:3px solid var(--ink);border-radius:0 0 50% 50%/0 0 12px 12px}
+.perch{position:absolute;bottom:9px;width:52px;animation:bob 3.2s ease-in-out infinite;transform-origin:50% 100%}
+.perch:nth-child(2){animation-delay:-1s}.perch:nth-child(3){animation-delay:-2s}.perch:nth-child(4){animation-delay:-.5s}
+@keyframes bob{50%{transform:rotate(-4deg) translateY(-2px)}}
+
+/* ---------- controls ---------- */
+main{max-width:1100px;margin:0 auto;padding:22px 16px 60px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.tab{font:800 1rem Nunito;border:2.5px solid var(--ink);background:var(--card);color:var(--ink);border-radius:14px 14px 4px 4px;
+  padding:9px 16px;cursor:pointer;box-shadow:0 3px 0 var(--ink);transition:.12s}
+.tab:hover{transform:translateY(-2px)}
+.tab[aria-selected=true]{background:var(--accent);color:#fff;transform:translateY(2px);box-shadow:0 1px 0 var(--ink)}
+.tab .n{display:inline-block;margin-left:6px;background:var(--ink);color:var(--paper);border-radius:99px;padding:0 8px;font-size:.8rem}
+.bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:18px}
+.chip{font:700 .85rem Nunito;border:2px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;padding:5px 12px;cursor:pointer}
+.chip[aria-pressed=true]{border-color:var(--ink);box-shadow:2px 2px 0 var(--ink)}
+.chip i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.spacer{flex:1}
+select,.viewbtn{font:700 .85rem Nunito;border:2px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:6px 10px;cursor:pointer}
+.viewbtn[aria-pressed=true]{border-color:var(--ink);box-shadow:2px 2px 0 var(--ink)}
+
+/* ---------- cards ---------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:18px}
+.card{position:relative;background:var(--card);border:2.5px solid var(--ink);border-radius:18px;overflow:hidden;
+  box-shadow:5px 5px 0 var(--ink);transition:transform .15s}
+.card:nth-child(3n+1){transform:rotate(-.6deg)}.card:nth-child(3n+2){transform:rotate(.5deg)}
+.card:hover{transform:rotate(0) translateY(-3px)}
+.ph{height:170px;background:var(--sky2) center/cover;display:grid;place-items:center;font-size:3.6rem;position:relative;
+  border-bottom:2.5px solid var(--ink)}
+.ph.empty{background-image:repeating-linear-gradient(45deg,transparent 0 10px,rgba(0,0,0,.04) 10px 20px)}
+.credit{position:absolute;right:6px;bottom:4px;font-size:.62rem;background:rgba(0,0,0,.55);color:#fff;border-radius:6px;padding:1px 6px;max-width:80%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fresh{position:absolute;left:-34px;top:14px;transform:rotate(-38deg);background:var(--accent);color:#fff;font:800 .7rem Nunito;
+  letter-spacing:.08em;padding:3px 38px;border:2px solid var(--ink);z-index:2}
+.body{padding:12px 14px 14px}
+.name{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:1.25rem;line-height:1.15;margin:0}
+.sci{font-style:italic;color:var(--muted);font-size:.88rem;margin:2px 0 8px}
+.bands{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+.band{font:800 .72rem Nunito;color:#fff;border-radius:99px;padding:2px 10px 2px 8px;display:inline-flex;align-items:center;gap:5px}
+.band::before{content:"";width:8px;height:8px;border-radius:50%;background:#fff;opacity:.9}
+.b-new{background:var(--new)}.b-rare{background:var(--rare)}.b-off_season{background:var(--off)}.b-notable{background:var(--notable);color:#2b2a33}
+.b-notable::before{background:#2b2a33}
+.b-unconfirmed{background:transparent;color:var(--muted);border:1.5px dashed var(--muted)}
+.b-unconfirmed::before{background:var(--muted)}
+.meta{font-size:.85rem;margin:2px 0}
+.meta b{font-weight:800}
+.hist{font-family:Caveat,cursive;font-size:1.15rem;color:var(--leaf);margin:6px 0 2px}
+details{margin-top:8px;font-size:.84rem}
+summary{cursor:pointer;font-weight:800}
+details ul{margin:6px 0 0;padding:0;list-style:none}
+details li{padding:4px 0;border-top:1px dashed var(--line)}
+.src{font-size:.68rem;font-weight:800;border-radius:6px;padding:1px 5px;margin-right:4px;border:1.5px solid var(--ink)}
+.src.ebird{background:#ffd54a;color:#2b2a33}.src.inat{background:#9ed36a;color:#2b2a33}
+
+/* ---------- states ---------- */
+.empty-state{text-align:center;padding:50px 20px;font-family:Caveat,cursive;font-size:1.8rem}
+.empty-state svg{width:90px;display:block;margin:0 auto 10px}
+.stale{background:#fff3cd;color:#5a4500;border:2px solid #e0b400;border-radius:10px;padding:6px 12px;margin-bottom:12px;font-weight:700;font-size:.85rem}
+#map{height:560px;border:2.5px solid var(--ink);border-radius:18px;box-shadow:5px 5px 0 var(--ink)}
+.pin{width:18px;height:18px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);border:2px solid var(--ink)}
+footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);font-size:.8rem}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- a little round songbird, facing right -->
+    <symbol id="bird" viewBox="0 0 64 56">
+      <path d="M6 24 L0 14 L16 20 Z" fill="currentColor" opacity=".85"/>
+      <ellipse cx="30" cy="30" rx="22" ry="16" fill="currentColor"/>
+      <ellipse cx="32" cy="38" rx="14" ry="9" fill="#fff6dc" opacity=".92"/>
+      <circle cx="47" cy="19" r="11" fill="currentColor"/>
+      <path d="M57 17 L66 21 L57 24 Z" fill="#f2a900"/>
+      <circle cx="50" cy="17" r="2.6" fill="#fff"/><circle cx="51" cy="17" r="1.3" fill="#111"/>
+      <path d="M22 28 Q34 20 40 32 Q30 38 20 34 Z" fill="#000" opacity=".18"/>
+      <path d="M27 45 v8 M35 45 v8" stroke="#f2a900" stroke-width="2.4" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header>
+  <div class="cloud c1"></div><div class="cloud c2"></div>
+  <svg class="flyer" viewBox="0 0 44 20" aria-hidden="true"><path d="M0 14 Q11 -4 22 12 Q33 -4 44 14 Q33 6 22 17 Q11 6 0 14Z" fill="currentColor"/></svg>
+  <div class="title">
+    <p class="eyebrow" id="eyebrow">what's flapping around…</p>
+    <h1 id="h1">Wing <em>Watch</em></h1>
+    <p class="sub" id="sub">Loading the latest sightings…</p>
+  </div>
+  <div class="wire" id="wire"></div>
+</header>
+
+<main>
+  <div class="tabs" id="tabs" role="tablist"></div>
+  <div class="bar" id="bar"></div>
+  <div id="stale"></div>
+  <div id="content"></div>
+</main>
+<footer id="foot"></footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const FLAGS = {
+  new:        {label:"First here!",     color:"var(--new)",     tip:"No research-grade iNaturalist record in this area during the baseline period"},
+  rare:       {label:"Rare visitor",    color:"var(--rare)",    tip:"Only a handful of baseline records in this area"},
+  off_season: {label:"Off-season",      color:"var(--off)",     tip:"Usually seen here, but not at this time of year"},
+  notable:    {label:"eBird rarity",    color:"var(--notable)", tip:"Flagged as locally or nationally rare by eBird"}
+};
+const state = {data:null, group:null, flags:new Set(), sort:"recent", view:"cards", map:null};
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmtDate = d => d ? new Date(d + "T12:00:00").toLocaleDateString(undefined,{month:"short",day:"numeric"}) : "";
+const safeUrl = u => /^https:\/\//.test(u||"") ? u : "#";
+
+function ago(iso){
+  const m = Math.round((Date.now() - new Date(iso)) / 60000);
+  if (m < 90) return m + " min ago";
+  if (m < 60*36) return Math.round(m/60) + " hours ago";
+  return Math.round(m/1440) + " days ago";
+}
+
+function perchedBirds(colors){
+  const spots = [8, 24, 47, 71];
+  return spots.map((x,i) => `<svg class="perch" style="left:${x}%;color:${colors[i % colors.length]};${i%2?'scale:-1 1':''}" viewBox="0 0 64 56"><use href="#bird"/></svg>`).join("");
+}
+
+async function init(){
+  let data;
+  try { data = await (await fetch("data.json", {cache:"no-store"})).json(); }
+  catch(e){ $("sub").textContent = "Couldn't load data.json yet. Has the update workflow run?"; return; }
+  state.data = data;
+  const th = data.site.theme || {};
+  const r = document.documentElement.style;
+  if (th.sky)    r.setProperty("--sky", th.sky);
+  if (th.accent) r.setProperty("--accent", th.accent);
+  document.title = `Wing Watch · ${data.site.name}`;
+  $("eyebrow").textContent = data.site.tagline || "what's flapping around…";
+  $("h1").innerHTML = `${esc(data.site.name)} <em>Wing Watch</em>`;
+  $("sub").textContent = `Within ${Math.round(data.site.radius_km/1.609)} miles · last ${data.window_days} days · updated ${ago(data.generated)}`;
+  $("wire").innerHTML = perchedBirds(th.birds || ["#3b6fb6","#d4572a","#2f8a5b","#7b4fc4"]);
+  if (!data.groups.length){ $("sub").textContent = "No sightings yet. Run the \"Update sightings\" workflow once to fill this in."; return; }
+  state.group = data.groups[0].id;
+  $("foot").innerHTML = `Sightings from <a href="https://www.inaturalist.org" target="_blank" rel="noopener">iNaturalist</a> and <a href="https://ebird.org" target="_blank" rel="noopener">eBird</a>. "Unusual" means compared with the last ${data.baseline_years} years of research-grade iNaturalist records in the same circle, so it's a nudge to go look, not a verified record. Photos are shown only when the photographer used an open licence.`;
+  render();
+}
+
+function groupObj(){ return state.data.groups.find(g => g.id === state.group); }
+
+function render(){
+  const d = state.data;
+  $("tabs").innerHTML = d.groups.map(g =>
+    `<button class="tab" role="tab" aria-selected="${g.id===state.group}" data-g="${g.id}">${g.emoji} ${esc(g.label)}<span class="n">${g.items.length}</span></button>`).join("");
+  $("tabs").querySelectorAll(".tab").forEach(b => b.onclick = () => { state.group = b.dataset.g; state.flags.clear(); render(); });
+
+  const g = groupObj();
+  const present = new Set(g.items.flatMap(i => i.flags));
+  $("bar").innerHTML =
+    Object.entries(FLAGS).filter(([k]) => present.has(k)).map(([k,f]) =>
+      `<button class="chip" aria-pressed="${state.flags.has(k)}" data-f="${k}" title="${esc(f.tip)}"><i style="background:${f.color}"></i>${f.label}</button>`).join("") +
+    `<span class="spacer"></span>
+     <select id="sort" aria-label="Sort"><option value="recent">Newest first</option><option value="rare">Rarest first</option><option value="name">A–Z</option></select>
+     <button class="viewbtn" data-v="cards" aria-pressed="${state.view==='cards'}">🃏 Cards</button>
+     <button class="viewbtn" data-v="map" aria-pressed="${state.view==='map'}">🗺️ Map</button>`;
+  $("sort").value = state.sort;
+  $("sort").onchange = e => { state.sort = e.target.value; render(); };
+  $("bar").querySelectorAll(".chip").forEach(b => b.onclick = () => { const k=b.dataset.f; state.flags.has(k)?state.flags.delete(k):state.flags.add(k); render(); });
+  $("bar").querySelectorAll(".viewbtn").forEach(b => b.onclick = () => { state.view = b.dataset.v; render(); });
+
+  $("stale").innerHTML = g.stale ? `<div class="stale">⚠️ This group couldn't refresh last time, so you're seeing older data.</div>` : "";
+
+  let items = g.items.filter(i => !state.flags.size || i.flags.some(f => state.flags.has(f)));
+  const prio = i => (i.flags.includes("new")?0:i.flags.includes("notable")?1:i.flags.includes("rare")?2:3);
+  items.sort(state.sort==="name" ? (a,b)=>a.common.localeCompare(b.common)
+    : state.sort==="rare" ? (a,b)=>prio(a)-prio(b)||b.latest.localeCompare(a.latest)
+    : (a,b)=>b.latest.localeCompare(a.latest));
+
+  if (!items.length){
+    $("content").innerHTML = `<div class="empty-state"><svg viewBox="0 0 64 56" style="color:#7b8a93"><use href="#bird"/></svg>Quiet skies. Nothing unusual lately.<br><small style="font-size:1.1rem;color:var(--muted)">${g.recent_species_total} species were seen here in the last ${d.window_days} days, all of them regulars.</small></div>`;
+    return;
+  }
+  state.view === "map" ? renderMap(items) : renderCards(items, g);
+}
+
+function renderCards(items, g){
+  const d = state.data, gen = new Date(d.generated);
+  $("content").innerHTML = `<div class="grid">` + items.map(i => {
+    const fresh = (gen - new Date(i.first_flagged + "T00:00:00Z")) < 36*3600e3;
+    const ph = i.photo
+      ? `<div class="ph" style="background-image:url('${esc(i.photo.url)}')" role="img" aria-label="${esc(i.common)}"><span class="credit">${esc(i.photo.attribution || "")}</span></div>`
+      : `<div class="ph empty">${g.emoji || "🐦"}</div>`;
+    const bands = i.flags.map(f => `<span class="band b-${f}" title="${esc(FLAGS[f].tip)}">${FLAGS[f].label}</span>`).join("")
+      + (i.unconfirmed ? `<span class="band b-unconfirmed" title="No research-grade observations yet. The ID may still change.">Needs ID</span>` : "");
+    const s0 = i.sightings[0];
+    const hist = i.baseline_count === 0 ? `Never recorded here in ${d.baseline_years} years!`
+      : i.baseline_count != null ? `Only ${i.baseline_count} record${i.baseline_count===1?"":"s"} here in ${d.baseline_years} years`
+      : "";
+    const list = i.sightings.map(s => `<li><span class="src ${s.source}">${s.source==="ebird"?"eBird":"iNat"}</span>${fmtDate(s.date)} · ${esc(s.place || "unknown place")}${s.count?` · ${esc(s.count)} seen`:""}${s.quality==="unreviewed"?" · unreviewed":""}${s.url?` · <a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener">view ↗</a>`:""}</li>`).join("");
+    return `<article class="card">${fresh?'<div class="fresh">NEW TODAY</div>':""}${ph}
+      <div class="body"><h3 class="name">${esc(i.common)}</h3><div class="sci">${esc(i.sci)}</div>
+      <div class="bands">${bands}</div>
+      ${s0?`<div class="meta"><b>Last seen</b> ${fmtDate(i.latest)}${s0.place?` · ${esc(s0.place)}`:""}</div>`:""}
+      ${hist?`<div class="hist">${esc(hist)}</div>`:""}
+      <details><summary>${i.sightings.length} sighting${i.sightings.length===1?"":"s"}</summary><ul>${list}</ul></details>
+      </div></article>`;
+  }).join("") + `</div>`;
+}
+
+function renderMap(items){
+  $("content").innerHTML = `<div id="map"></div>`;
+  const s = state.data.site;
+  if (state.map){ state.map.remove(); state.map = null; }
+  if (typeof L === "undefined"){ $("content").innerHTML = `<div class="empty-state">The map library didn't load. Try the cards view.</div>`; return; }
+  const m = state.map = L.map("map").setView([s.lat, s.lng], 10);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {maxZoom:18, attribution:"© OpenStreetMap contributors"}).addTo(m);
+  L.circle([s.lat, s.lng], {radius:s.radius_km*1000, color:"#2b2a33", weight:2, dashArray:"6 6", fill:false}).addTo(m);
+  items.forEach(i => i.sightings.forEach(sg => {
+    const col = FLAGS[i.flags[0]]?.color || "#888";
+    const real = getComputedStyle(document.documentElement).getPropertyValue(col.replace(/var\((.*)\)/,"$1")).trim() || col;
+    const icon = L.divIcon({className:"", html:`<div class="pin" style="background:${real}"></div>`, iconSize:[18,18], iconAnchor:[9,18]});
+    L.marker([sg.lat, sg.lng], {icon}).addTo(m).bindPopup(
+      `<b>${esc(i.common)}</b><br><i>${esc(i.sci)}</i><br>${fmtDate(sg.date)} · ${esc(sg.place||"")}${sg.url?`<br><a href="${esc(safeUrl(sg.url))}" target="_blank" rel="noopener">view ↗</a>`:""}`);
+  }));
+}
+init();
+</script>
+</body>
+</html>

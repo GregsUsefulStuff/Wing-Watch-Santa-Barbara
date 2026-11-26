@@ -1,0 +1,25 @@
+{
+  "site": {
+    "name": "Santa Barbara",
+    "tagline": "who's new on the Riviera?",
+    "lat": 34.4208,
+    "lng": -119.6982,
+    "radius_miles": 20,
+    "theme": {"sky": "#8fd3e8", "accent": "#e9622b", "birds": ["#3b6fb6", "#d4572a", "#2f8a5b", "#7b4fc4"]}
+  },
+  "window_days": 14,
+  "baseline_years": 5,
+  "rare_threshold": 2,
+  "offseason_min_baseline": 5,
+  "baseline_refresh_days": 7,
+  "groups": [
+    {"id": "birds", "label": "Birds", "emoji": "🐦", "ebird": true, "include": ["Aves"]},
+    {"id": "sea-mammals", "label": "Sea mammals", "emoji": "🐋",
+     "include": ["Cetacea", "Pinnipedia", "Enhydra lutris"]},
+    {"id": "sea-life", "label": "Other sea life", "emoji": "🐙",
+     "include": ["Actinopterygii", "Chondrichthyes", "Mollusca", "Echinodermata", "Cnidaria", "Crustacea", "Chelonioidea"]},
+    {"id": "land", "label": "Land animals", "emoji": "🦎",
+     "include": ["Mammalia", "Reptilia", "Amphibia", "Insecta", "Arachnida"],
+     "exclude": ["Cetacea", "Pinnipedia", "Enhydra lutris", "Chelonioidea"]}
+  ]
+}
