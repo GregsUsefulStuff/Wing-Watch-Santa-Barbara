@@ -17,7 +17,7 @@
   },
   "radius_km": 32.2
  },
- "generated": "2026-11-26T23:55:06+00:00",
+ "generated": "2026-11-27T12:49:40+00:00",
  "window_days": 14,
  "baseline_years": 5,
  "groups": [
@@ -25,7 +25,7 @@
    "id": "birds",
    "label": "Birds",
    "emoji": "🐦",
-   "recent_species_total": 113,
+   "recent_species_total": 114,
    "items": [
     {
      "taxon_id": 7087,
@@ -249,11 +249,10 @@
        "lat": 34.4175533333,
        "lng": -119.87552,
        "url": "https://www.inaturalist.org/observations/417102432",
-       "quality": "needs_id",
+       "quality": "research",
        "obscured": false
       }
      ],
-     "unconfirmed": true,
      "latest": "2026-11-26",
      "first_flagged": "2026-11-26"
     },
@@ -1805,7 +1804,7 @@
    "id": "sea-life",
    "label": "Other sea life",
    "emoji": "🐙",
-   "recent_species_total": 134,
+   "recent_species_total": 139,
    "items": [
     {
      "taxon_id": 56772,
@@ -2067,6 +2066,38 @@
      ],
      "latest": "2026-11-22",
      "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 48388,
+     "sci": "Corambe steinbergae",
+     "common": "Steinberg's Corambe",
+     "flags": [
+      "off_season"
+     ],
+     "baseline_count": 35,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/768417102/medium.jpg",
+      "attribution": "(c) Garrett Craig, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-26",
+       "place": "University of California-Santa Barbara, CA, US",
+       "lat": 34.406786,
+       "lng": -119.877576,
+       "url": "https://www.inaturalist.org/observations/417174866",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-26",
+     "first_flagged": "2026-11-27"
     },
     {
      "taxon_id": 50020,
@@ -2494,7 +2525,7 @@
    "id": "land",
    "label": "Land animals",
    "emoji": "🦎",
-   "recent_species_total": 87,
+   "recent_species_total": 86,
    "items": [
     {
      "taxon_id": 329848,
