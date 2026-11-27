@@ -218,5 +218,29 @@
  "sea-life:corambe steinbergae": {
   "first_flagged": "2026-11-27",
   "last_seen": "2026-11-27"
+ },
+ "birds:icterus cucullatus": {
+  "first_flagged": "2026-11-27",
+  "last_seen": "2026-11-27"
+ },
+ "birds:sphyrapicus thyroideus": {
+  "first_flagged": "2026-11-27",
+  "last_seen": "2026-11-27"
+ },
+ "sea-life:morone saxatilis": {
+  "first_flagged": "2026-11-27",
+  "last_seen": "2026-11-27"
+ },
+ "land:agonoscelis puberula": {
+  "first_flagged": "2026-11-27",
+  "last_seen": "2026-11-27"
+ },
+ "land:salvadora hexalepis": {
+  "first_flagged": "2026-11-27",
+  "last_seen": "2026-11-27"
+ },
+ "land:pseudacysta perseae": {
+  "first_flagged": "2026-11-27",
+  "last_seen": "2026-11-27"
  }
 }

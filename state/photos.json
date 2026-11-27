@@ -75,5 +75,16 @@
   "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3853627/medium.jpg",
   "attribution": "(c) Jim Vargo at Moth Photographers Group, some rights reserved (CC BY-NC-SA)",
   "license": "cc-by-nc-sa"
+ },
+ "icterus cucullatus": null,
+ "sphyrapicus thyroideus": {
+  "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207903479/medium.jpg",
+  "attribution": "no rights reserved, uploaded by Dario Taraborelli",
+  "license": "cc0"
+ },
+ "salvadora hexalepis": {
+  "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/385040923/medium.jpg",
+  "attribution": "(c) Yinpeng Zhang, some rights reserved (CC BY-NC), uploaded by Yinpeng Zhang",
+  "license": "cc-by-nc"
  }
 }

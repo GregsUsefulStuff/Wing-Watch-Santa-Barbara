@@ -17,7 +17,7 @@
   },
   "radius_km": 32.2
  },
- "generated": "2026-11-27T12:49:40+00:00",
+ "generated": "2026-11-27T23:35:39+00:00",
  "window_days": 14,
  "baseline_years": 5,
  "groups": [
@@ -25,7 +25,7 @@
    "id": "birds",
    "label": "Birds",
    "emoji": "🐦",
-   "recent_species_total": 114,
+   "recent_species_total": 115,
    "items": [
     {
      "taxon_id": 7087,
@@ -258,6 +258,193 @@
     },
     {
      "taxon_id": null,
+     "sci": "Icterus cucullatus",
+     "common": "Hooded Oriole",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-27",
+       "time": "2026-11-27 12:00",
+       "place": "Holiday hill rd goleta",
+       "lat": 34.4625626,
+       "lng": -119.8329849,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413565655",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "hooori",
+     "latest": "2026-11-27",
+     "first_flagged": "2026-11-27"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Haemorhous cassinii",
+     "common": "Cassin's Finch",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225768/medium.jpg",
+      "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-27",
+       "time": "2026-11-27 09:12",
+       "place": "Bella Vista OSP",
+       "lat": 34.438363,
+       "lng": -119.8836064,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413519821",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 08:06",
+       "place": "4831 Rim Rd, Santa Barbara US-CA 34.50299, -119.78958",
+       "lat": 34.502988,
+       "lng": -119.789582,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S411223823",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "casfin",
+     "latest": "2026-11-27",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Sphyrapicus thyroideus",
+     "common": "Williamson's Sapsucker",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207903479/medium.jpg",
+      "attribution": "no rights reserved, uploaded by Dario Taraborelli",
+      "license": "cc0"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-27",
+       "time": "2026-11-27 09:12",
+       "place": "Bella Vista OSP",
+       "lat": 34.438363,
+       "lng": -119.8836064,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413519821",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-27",
+       "time": "2026-11-27 09:12",
+       "place": "Bella Vista OSP",
+       "lat": 34.438363,
+       "lng": -119.8836064,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413519821",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-27",
+       "time": "2026-11-27 09:12",
+       "place": "Bella Vista OSP",
+       "lat": 34.438363,
+       "lng": -119.8836064,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413519821",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-27",
+       "time": "2026-11-27 09:12",
+       "place": "Bella Vista OSP",
+       "lat": 34.438363,
+       "lng": -119.8836064,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413519821",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "wilsap",
+     "latest": "2026-11-27",
+     "first_flagged": "2026-11-27"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Stelgidopteryx serripennis",
+     "common": "Northern Rough-winged Swallow",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206149012/medium.jpg",
+      "attribution": "(c) Jing-Yi Lu, some rights reserved (CC BY-NC), uploaded by Jing-Yi Lu",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-27",
+       "time": "2026-11-27 07:19",
+       "place": "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)",
+       "lat": 34.4198459,
+       "lng": -119.8792197,
+       "count": 5,
+       "url": "https://ebird.org/checklist/S413502691",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 08:41",
+       "place": "Coal Oil Point Natural Reserve--Devereux Lagoon",
+       "lat": 34.4136013,
+       "lng": -119.8756027,
+       "count": 7,
+       "url": "https://ebird.org/checklist/S410788146",
+       "quality": "confirmed"
+      }
+     ],
+     "code": "nrwswa",
+     "latest": "2026-11-27",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": null,
      "sci": "Aythya marila",
      "common": "Greater Scaup",
      "flags": [
@@ -350,7 +537,7 @@
        "lng": -119.8426241,
        "count": 1,
        "url": "https://ebird.org/checklist/S413284958",
-       "quality": "unreviewed"
+       "quality": "confirmed"
       },
       {
        "source": "ebird",
@@ -361,7 +548,7 @@
        "lng": -119.6572856,
        "count": 1,
        "url": "https://ebird.org/checklist/S413298726",
-       "quality": "unreviewed"
+       "quality": "confirmed"
       },
       {
        "source": "ebird",
@@ -372,7 +559,7 @@
        "lng": -119.6572856,
        "count": 1,
        "url": "https://ebird.org/checklist/S413298726",
-       "quality": "unreviewed"
+       "quality": "confirmed"
       },
       {
        "source": "ebird",
@@ -383,7 +570,7 @@
        "lng": -119.6572856,
        "count": 1,
        "url": "https://ebird.org/checklist/S413298726",
-       "quality": "unreviewed"
+       "quality": "confirmed"
       },
       {
        "source": "ebird",
@@ -394,7 +581,7 @@
        "lng": -119.6572856,
        "count": 1,
        "url": "https://ebird.org/checklist/S413298726",
-       "quality": "unreviewed"
+       "quality": "confirmed"
       },
       {
        "source": "ebird",
@@ -405,7 +592,7 @@
        "lng": -119.6572856,
        "count": 1,
        "url": "https://ebird.org/checklist/S413298726",
-       "quality": "unreviewed"
+       "quality": "confirmed"
       },
       {
        "source": "ebird",
@@ -416,7 +603,7 @@
        "lng": -119.8792197,
        "count": 1,
        "url": "https://ebird.org/checklist/S413140054",
-       "quality": "unreviewed"
+       "quality": "confirmed"
       },
       {
        "source": "ebird",
@@ -427,7 +614,7 @@
        "lng": -119.8792197,
        "count": 1,
        "url": "https://ebird.org/checklist/S413157344",
-       "quality": "unreviewed"
+       "quality": "confirmed"
       },
       {
        "source": "ebird",
@@ -438,7 +625,7 @@
        "lng": -119.8792197,
        "count": 1,
        "url": "https://ebird.org/checklist/S412944642",
-       "quality": "unreviewed"
+       "quality": "confirmed"
       },
       {
        "source": "ebird",
@@ -483,7 +670,7 @@
        "lng": -119.6572856,
        "count": 2,
        "url": "https://ebird.org/checklist/S413298726",
-       "quality": "unreviewed"
+       "quality": "confirmed"
       },
       {
        "source": "ebird",
@@ -494,7 +681,7 @@
        "lng": -119.6572856,
        "count": 3,
        "url": "https://ebird.org/checklist/S413171712",
-       "quality": "unreviewed"
+       "quality": "confirmed"
       },
       {
        "source": "ebird",
@@ -505,7 +692,7 @@
        "lng": -119.8450041,
        "count": 2,
        "url": "https://ebird.org/checklist/S413181665",
-       "quality": "unreviewed"
+       "quality": "confirmed"
       },
       {
        "source": "ebird",
@@ -516,7 +703,7 @@
        "lng": -119.8756027,
        "count": 3,
        "url": "https://ebird.org/checklist/S413117414",
-       "quality": "unreviewed"
+       "quality": "confirmed"
       },
       {
        "source": "ebird",
@@ -616,7 +803,7 @@
        "lng": -119.7349691,
        "count": 1,
        "url": "https://ebird.org/checklist/S413160602",
-       "quality": "unreviewed"
+       "quality": "confirmed"
       },
       {
        "source": "ebird",
@@ -627,7 +814,7 @@
        "lng": -119.7349691,
        "count": 1,
        "url": "https://ebird.org/checklist/S413180428",
-       "quality": "unreviewed"
+       "quality": "confirmed"
       },
       {
        "source": "ebird",
@@ -638,7 +825,7 @@
        "lng": -119.7349691,
        "count": 1,
        "url": "https://ebird.org/checklist/S413136809",
-       "quality": "unreviewed"
+       "quality": "confirmed"
       },
       {
        "source": "ebird",
@@ -756,7 +943,7 @@
        "lng": -119.8606253,
        "count": 5,
        "url": "https://ebird.org/checklist/S412864353",
-       "quality": "unreviewed"
+       "quality": "confirmed"
       },
       {
        "source": "ebird",
@@ -1364,40 +1551,6 @@
     },
     {
      "taxon_id": null,
-     "sci": "Haemorhous cassinii",
-     "common": "Cassin's Finch",
-     "flags": [
-      "notable"
-     ],
-     "baseline_count": null,
-     "recent_count": 0,
-     "sources": [
-      "ebird"
-     ],
-     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225768/medium.jpg",
-      "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
-      "license": "cc-by-nc"
-     },
-     "sightings": [
-      {
-       "source": "ebird",
-       "date": "2026-11-17",
-       "time": "2026-11-17 08:06",
-       "place": "4831 Rim Rd, Santa Barbara US-CA 34.50299, -119.78958",
-       "lat": 34.502988,
-       "lng": -119.789582,
-       "count": 2,
-       "url": "https://ebird.org/checklist/S411223823",
-       "quality": "confirmed"
-      }
-     ],
-     "code": "casfin",
-     "latest": "2026-11-17",
-     "first_flagged": "2026-11-26"
-    },
-    {
-     "taxon_id": null,
      "sci": "Tringa flavipes",
      "common": "Lesser Yellowlegs",
      "flags": [
@@ -1526,40 +1679,6 @@
       }
      ],
      "code": "lesyel",
-     "latest": "2026-11-15",
-     "first_flagged": "2026-11-26"
-    },
-    {
-     "taxon_id": null,
-     "sci": "Stelgidopteryx serripennis",
-     "common": "Northern Rough-winged Swallow",
-     "flags": [
-      "notable"
-     ],
-     "baseline_count": null,
-     "recent_count": 0,
-     "sources": [
-      "ebird"
-     ],
-     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206149012/medium.jpg",
-      "attribution": "(c) Jing-Yi Lu, some rights reserved (CC BY-NC), uploaded by Jing-Yi Lu",
-      "license": "cc-by-nc"
-     },
-     "sightings": [
-      {
-       "source": "ebird",
-       "date": "2026-11-15",
-       "time": "2026-11-15 08:41",
-       "place": "Coal Oil Point Natural Reserve--Devereux Lagoon",
-       "lat": 34.4136013,
-       "lng": -119.8756027,
-       "count": 7,
-       "url": "https://ebird.org/checklist/S410788146",
-       "quality": "confirmed"
-      }
-     ],
-     "code": "nrwswa",
      "latest": "2026-11-15",
      "first_flagged": "2026-11-26"
     },
@@ -1804,7 +1923,7 @@
    "id": "sea-life",
    "label": "Other sea life",
    "emoji": "🐙",
-   "recent_species_total": 139,
+   "recent_species_total": 144,
    "items": [
     {
      "taxon_id": 56772,
@@ -2133,6 +2252,38 @@
      "first_flagged": "2026-11-26"
     },
     {
+     "taxon_id": 51392,
+     "sci": "Morone saxatilis",
+     "common": "Striped Bass",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/768547941/medium.jpg",
+      "attribution": "(c) Justin M. Wood, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-23",
+       "place": "Carpinteria Coastal Trail, Carpinteria, CA, US",
+       "lat": 34.3886,
+       "lng": -119.51732,
+       "url": "https://www.inaturalist.org/observations/417241073",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-23",
+     "first_flagged": "2026-11-27"
+    },
+    {
      "taxon_id": 55290,
      "sci": "Sphoeroides annulatus",
      "common": "Bullseye Puffer",
@@ -2323,39 +2474,6 @@
      "first_flagged": "2026-11-26"
     },
     {
-     "taxon_id": 353763,
-     "sci": "Cabestana spengleri",
-     "common": "Spengler's Trumpet Snail",
-     "flags": [
-      "new"
-     ],
-     "baseline_count": 0,
-     "recent_count": 1,
-     "sources": [
-      "inat"
-     ],
-     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/768109469/medium.jpg",
-      "attribution": "(c) iamburitto, some rights reserved (CC BY-NC)",
-      "license": "cc-by-nc"
-     },
-     "sightings": [
-      {
-       "source": "inat",
-       "date": "2026-11-25",
-       "place": "Santa Barbara Channel, University of California-Santa Barbara, CA, US",
-       "lat": 34.4063466032,
-       "lng": -119.8776828259,
-       "url": "https://www.inaturalist.org/observations/417021613",
-       "quality": "needs_id",
-       "obscured": false
-      }
-     ],
-     "unconfirmed": true,
-     "latest": "2026-11-25",
-     "first_flagged": "2026-11-26"
-    },
-    {
      "taxon_id": 492708,
      "sci": "Turritella cooperi",
      "common": "Cooper's Turret",
@@ -2525,7 +2643,7 @@
    "id": "land",
    "label": "Land animals",
    "emoji": "🦎",
-   "recent_species_total": 86,
+   "recent_species_total": 90,
    "items": [
     {
      "taxon_id": 329848,
@@ -2828,39 +2946,6 @@
      "first_flagged": "2026-11-26"
     },
     {
-     "taxon_id": 318970,
-     "sci": "Boyeria irene",
-     "common": "Western Spectre",
-     "flags": [
-      "new"
-     ],
-     "baseline_count": 0,
-     "recent_count": 1,
-     "sources": [
-      "inat"
-     ],
-     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/768240928/medium.jpg",
-      "attribution": "(c) Liz, some rights reserved (CC BY-NC)",
-      "license": "cc-by-nc"
-     },
-     "sightings": [
-      {
-       "source": "inat",
-       "date": "2026-11-26",
-       "place": "Madrona Dr, Santa Barbara, CA, US",
-       "lat": 34.4412,
-       "lng": -119.7390583333,
-       "url": "https://www.inaturalist.org/observations/417087566",
-       "quality": "needs_id",
-       "obscured": false
-      }
-     ],
-     "unconfirmed": true,
-     "latest": "2026-11-26",
-     "first_flagged": "2026-11-26"
-    },
-    {
      "taxon_id": 354034,
      "sci": "Dilophus orbatus",
      "common": "Dilophus orbatus",
@@ -2892,6 +2977,39 @@
      "unconfirmed": true,
      "latest": "2026-11-18",
      "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 358506,
+     "sci": "Agonoscelis puberula",
+     "common": "African Cluster Bug",
+     "flags": [
+      "rare"
+     ],
+     "baseline_count": 1,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/768689900/medium.jpg",
+      "attribution": "(c) noahgaines, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-27",
+       "place": "State St, Santa Barbara, CA, US",
+       "lat": 34.4134783424,
+       "lng": -119.6917416667,
+       "url": "https://www.inaturalist.org/observations/417312390",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-27",
+     "first_flagged": "2026-11-27"
     },
     {
      "taxon_id": 467578,
@@ -2957,6 +3075,72 @@
      ],
      "latest": "2026-11-19",
      "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 606618,
+     "sci": "Salvadora hexalepis",
+     "common": "Western Patch-nosed Snake",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/385040923/medium.jpg",
+      "attribution": "(c) Yinpeng Zhang, some rights reserved (CC BY-NC), uploaded by Yinpeng Zhang",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-27",
+       "place": "Montecito, CA 93108, USA",
+       "lat": 34.47645,
+       "lng": -119.6287805556,
+       "url": "https://www.inaturalist.org/observations/417275974",
+       "quality": "needs_id",
+       "obscured": false
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-27",
+     "first_flagged": "2026-11-27"
+    },
+    {
+     "taxon_id": 623080,
+     "sci": "Pseudacysta perseae",
+     "common": "Avocado Lace Bug",
+     "flags": [
+      "rare"
+     ],
+     "baseline_count": 1,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/768652141/medium.jpg",
+      "attribution": "(c) Bennett Grappone, some rights reserved (CC BY)",
+      "license": "cc-by"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-27",
+       "place": "Santa Barbara County, US-CA, US",
+       "lat": 34.4383737217,
+       "lng": -119.7996325157,
+       "url": "https://www.inaturalist.org/observations/417293220",
+       "quality": "needs_id",
+       "obscured": true
+      }
+     ],
+     "unconfirmed": true,
+     "latest": "2026-11-27",
+     "first_flagged": "2026-11-27"
     },
     {
      "taxon_id": 1445652,
