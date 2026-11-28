@@ -17,7 +17,7 @@
   },
   "radius_km": 32.2
  },
- "generated": "2026-11-27T23:35:39+00:00",
+ "generated": "2026-11-28T12:00:53+00:00",
  "window_days": 14,
  "baseline_years": 5,
  "groups": [
@@ -25,7 +25,7 @@
    "id": "birds",
    "label": "Birds",
    "emoji": "🐦",
-   "recent_species_total": 115,
+   "recent_species_total": 114,
    "items": [
     {
      "taxon_id": 7087,
@@ -1998,6 +1998,68 @@
      "first_flagged": "2026-11-26"
     },
     {
+     "taxon_id": 55290,
+     "sci": "Sphoeroides annulatus",
+     "common": "Bullseye Puffer",
+     "flags": [
+      "new"
+     ],
+     "baseline_count": 0,
+     "recent_count": 4,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/768781353/medium.jpg",
+      "attribution": "(c) hollymerrick, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-25",
+       "place": "Santa Barbara, CA, USA",
+       "lat": 34.40583,
+       "lng": -119.69129,
+       "url": "https://www.inaturalist.org/observations/417358133",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-21",
+       "place": "Santa Barbara, CA, USA",
+       "lat": 34.4058292116,
+       "lng": -119.6912879884,
+       "url": "https://www.inaturalist.org/observations/417358138",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-21",
+       "place": "Santa Barbara, CA, USA",
+       "lat": 34.40583,
+       "lng": -119.69129,
+       "url": "https://www.inaturalist.org/observations/417358135",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-17",
+       "place": "Santa Barbara, CA, US",
+       "lat": 34.4048216667,
+       "lng": -119.6897883333,
+       "url": "https://www.inaturalist.org/observations/415321529",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-25",
+     "first_flagged": "2026-11-26"
+    },
+    {
      "taxon_id": 328432,
      "sci": "Chione californiensis",
      "common": "California Venus",
@@ -2282,38 +2344,6 @@
      ],
      "latest": "2026-11-23",
      "first_flagged": "2026-11-27"
-    },
-    {
-     "taxon_id": 55290,
-     "sci": "Sphoeroides annulatus",
-     "common": "Bullseye Puffer",
-     "flags": [
-      "new"
-     ],
-     "baseline_count": 0,
-     "recent_count": 1,
-     "sources": [
-      "inat"
-     ],
-     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764737977/medium.jpg",
-      "attribution": "(c) Gregory Hahn, some rights reserved (CC BY-NC)",
-      "license": "cc-by-nc"
-     },
-     "sightings": [
-      {
-       "source": "inat",
-       "date": "2026-11-17",
-       "place": "Santa Barbara, CA, US",
-       "lat": 34.4048216667,
-       "lng": -119.6897883333,
-       "url": "https://www.inaturalist.org/observations/415321529",
-       "quality": "research",
-       "obscured": false
-      }
-     ],
-     "latest": "2026-11-17",
-     "first_flagged": "2026-11-26"
     },
     {
      "taxon_id": 55534,
@@ -2708,48 +2738,6 @@
      "first_flagged": "2026-11-26"
     },
     {
-     "taxon_id": 155453,
-     "sci": "Aedes aegypti",
-     "common": "Yellow Fever Mosquito",
-     "flags": [
-      "rare"
-     ],
-     "baseline_count": 1,
-     "recent_count": 2,
-     "sources": [
-      "inat"
-     ],
-     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764519984/medium.jpg",
-      "attribution": "(c) Eric Cleveland, some rights reserved (CC BY-NC)",
-      "license": "cc-by-nc"
-     },
-     "sightings": [
-      {
-       "source": "inat",
-       "date": "2026-11-15",
-       "place": "Carpinteria, CA, USA",
-       "lat": 34.3990496024,
-       "lng": -119.5156592743,
-       "url": "https://www.inaturalist.org/observations/415211347",
-       "quality": "research",
-       "obscured": false
-      },
-      {
-       "source": "inat",
-       "date": "2026-11-13",
-       "place": "Carpinteria, CA, USA",
-       "lat": 34.3990496024,
-       "lng": -119.5156592743,
-       "url": "https://www.inaturalist.org/observations/414741429",
-       "quality": "research",
-       "obscured": false
-      }
-     ],
-     "latest": "2026-11-15",
-     "first_flagged": "2026-11-26"
-    },
-    {
      "taxon_id": 51773,
      "sci": "Nathalis iole",
      "common": "Dainty Sulphur",
@@ -2812,6 +2800,38 @@
      ],
      "unconfirmed": true,
      "latest": "2026-11-22",
+     "first_flagged": "2026-11-26"
+    },
+    {
+     "taxon_id": 155453,
+     "sci": "Aedes aegypti",
+     "common": "Yellow Fever Mosquito",
+     "flags": [
+      "rare"
+     ],
+     "baseline_count": 1,
+     "recent_count": 1,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764519984/medium.jpg",
+      "attribution": "(c) Eric Cleveland, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-15",
+       "place": "Carpinteria, CA, USA",
+       "lat": 34.3990496024,
+       "lng": -119.5156592743,
+       "url": "https://www.inaturalist.org/observations/415211347",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-15",
      "first_flagged": "2026-11-26"
     },
     {
